@@ -162,103 +162,15 @@
 
 <div align="center">
 
-### 🎮 SELECT YOUR FIGHTER: VARUN S
-
 ```
- ╔═══════════════════════════════════════════════════════════╗
- ║  🎮  P L A Y E R   S E L E C T E D                      ║
- ╠═══════════════════════════════════════════════════════════╣
- ║                                                           ║
- ║   NAME .......... VARUN S           LVL ...... 7.64       ║
- ║   CLASS ......... AI/ML BUILDER     MANA ..... ████ 100%  ║
- ║   RANK .......... PRODUCTION ENGINEER                     ║
- ║                                                           ║
- ║   ⚔️  AI/ML        ████████████████████░░ 90%  ⬤ MAXED   ║
- ║   🛡️  Frameworks   ████████████████░░░░░░ 80%  ▲ HIGH    ║
- ║   ⚡ Backend       ██████████████░░░░░░░░ 70%  ▲ HIGH    ║
- ║   🎨 Frontend      ████████████░░░░░░░░░░ 60%  ● MID     ║
- ║   ☁️  Cloud/DevOps  ██████████████░░░░░░░░ 70%  ▲ HIGH    ║
- ║   🛠️  Tools         ████████████████░░░░░░ 80%  ▲ HIGH    ║
- ║                                                           ║
- ║   🏆 ACHIEVEMENTS: 6 Systems Deployed · 5 Hackathons     ║
- ║   📜 QUESTS ACTIVE: AI/ML & SWE Internships               ║
- ║                                                           ║
- ╚═══════════════════════════════════════════════════════════╝
+⚡ WHAT I BUILD                             🎯 WHAT I'M UP TO NOW
+───────────────────────────                  ───────────────────────────
+🔮 GNN fraud detection engines               🔭 Training GNNs on temporal graphs
+🧠 LLM routing & agentic systems             🌱 Exploring multi-agent orchestration
+📖 Offline-first accessibility tools          💼 Seeking AI/ML & SWE internships
+🚄 Real-time hazard detection (DAS)           🤝 Open to collaborations on GenAI
+💻 Full-stack coding platforms                📫 Let's connect on LinkedIn!
 ```
-
-<br/>
-
-### 🌳 EXPAND ACTIVE SKILL TREES:
-
-<details>
-<summary><b>🧠 SKILL TREE 01: AI/ML CORE</b></summary>
-<br/>
-<table>
-  <tr>
-    <td><b>Specializations:</b></td>
-    <td>Deep Learning · CV · NLP · GenAI · LLMs · RAG · Agentic AI · GNNs · Time-Series</td>
-  </tr>
-  <tr>
-    <td><b>Infra / Vector:</b></td>
-    <td>FAISS · ChromaDB · Ollama · MLflow</td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><b>🔥 SKILL TREE 02: FRAMEWORKS & LIBS</b></summary>
-<br/>
-<table>
-  <tr>
-    <td><b>Libraries:</b></td>
-    <td>PyTorch · TensorFlow · Keras · Scikit-learn · HuggingFace · LangChain · LangGraph · PyTorch Geometric</td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><b>⚙️ SKILL TREE 03: SYSTEM BACKEND</b></summary>
-<br/>
-<table>
-  <tr>
-    <td><b>APIs & DBs:</b></td>
-    <td>FastAPI · Flask · Node.js · Express.js · REST APIs · JWT Auth · Redis · MySQL</td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><b>🎨 SKILL TREE 04: SYSTEM FRONTEND</b></summary>
-<br/>
-<table>
-  <tr>
-    <td><b>UI & Engines:</b></td>
-    <td>React.js · Next.js · HTML5/CSS3 · Vite</td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><b>☁️ SKILL TREE 05: CLOUD & DEVOPS</b></summary>
-<br/>
-<table>
-  <tr>
-    <td><b>Infrastructure:</b></td>
-    <td>Docker · Kubernetes · AWS EC2/S3 · GitHub Actions · Vercel · Prometheus · OpenTelemetry</td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><b>🛠️ SKILL TREE 06: BUILDER TOOLS</b></summary>
-<br/>
-<table>
-  <tr>
-    <td><b>Dev Tools:</b></td>
-    <td>Judge0 · Monaco Editor · Streamlit · Gradio</td>
-  </tr>
-</table>
-</details>
 
 </div>
 
