@@ -1,0 +1,32 @@
+name: 3D Profile Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs daily at midnight UTC
+  workflow_dispatch:       # allows manual trigger from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution graph (matrix green theme)
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          THEME: black-green   # renders the isometric graph in a black/green terminal palette
+          # if the "black-green" theme name errors in the Action logs, open
+          # this action's README on GitHub, pick any listed dark/green theme
+          # name, and swap it in here — themes are occasionally renamed.
+
+      - name: Commit generated graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/
+          git commit -m "docs: update 3D contribution graph" || echo "No changes to commit"
+          git push
