@@ -18,10 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          THEME: black-green   # renders the isometric graph in a black/green terminal palette
-          # if the "black-green" theme name errors in the Action logs, open
-          # this action's README on GitHub, pick any listed dark/green theme
-          # name, and swap it in here — themes are occasionally renamed.
+          THEME: night-green
 
       - name: Commit generated graph
         run: |
