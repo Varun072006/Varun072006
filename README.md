@@ -196,27 +196,6 @@
 <summary><b>🔮 MuleNet.ai — Graph Neural Network Fraud Detection Engine</b></summary>
 <br/>
 
-```bash
-$ ./deploy MuleNet.ai --mode=production
-══════════════════════════════════════════════════════════════
- 🔮 SYSTEM    Graph Neural Network · Fraud Detection Engine
- ⚙️  STACK     PyTorch Geometric · GNN · Docker · GitHub Actions
-══════════════════════════════════════════════════════════════
- ▸ Modeled 10K+ accounts, 30K+ devices, 5K+ locations,
-   1.5M+ temporal interactions as a heterogeneous knowledge graph
- ▸ Multi-head Graph Attention Network + temporal graph modeling
-
-   ╭──────────────────────────────────────╮
-   │  ACCURACY ........... 96.4%         │
-   │  RECALL ............. 81.1%         │
-   │  F1-SCORE ........... 79.5%         │
-   │  FALSE POSITIVE ..... 3.2%          │
-   ╰──────────────────────────────────────╯
-
- ▸ Anti-leakage: temporal splits, edge dropout, focal loss
- ▸ Pruned + quantized => INFERENCE < 500ms
-
- [████████████████████████████████████████] STATUS: DEPLOYED ✅
 ══════════════════════════════════════════════════════════════
 ```
 </details>
@@ -365,13 +344,13 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <div align="center">
 
-| Year | Competition | Domain |
-|:---:|:---|:---|
-| `2026` | **Intellitrace 2026** | 🏦 AI-driven solutions for fintech & banking |
-| `2026` | **ANZ Diversity Hackathon** | 🌏 National innovation challenge, ANZ |
-| `—` | **AI for Bharat** | 📚 AI-powered educational accessibility |
-| `—` | **AMD Slingshot** | ⚡ AI + HPC innovation challenge |
-| `—` | **Yuvaan by AVEVA** | 🏭 Industrial AI & digital transformation |
+| Competition | Domain |
+|:---|:---|
+| **Intellitrace 2026** | 🏦 AI-driven solutions for fintech & banking |
+| **ANZ Diversity Hackathon** | 🌏 National innovation challenge, ANZ |
+| **AI for Bharat** | 📚 AI-powered educational accessibility |
+| **AMD Slingshot** | ⚡ AI + HPC innovation challenge |
+| **Yuvaan by AVEVA** | 🏭 Industrial AI & digital transformation |
 
 </div>
 
