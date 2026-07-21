@@ -164,25 +164,27 @@
 
 ### 🎮 SELECT YOUR FIGHTER: VARUN S
 
-<table>
-  <tr>
-    <td align="center" width="45%">
-      <img src="https://media.giphy.com/media/iY8CRBdQFOQ/giphy.gif" width="120" /><br/>
-      <b>CLASS: AI/ML BUILDER</b><br/>
-      <code>LVL: 7.64 (CGPA)</code><br/>
-      <code>MANA: 100% (ONLINE)</code>
-    </td>
-    <td>
-      <b>📊 CHARACTER STATS:</b><br/>
-      ⚔️ <b>AI/ML Power:</b> 🟩🟩🟩🟩🟩🟩🟩🟩🟩▒ [90%]<br/>
-      🛡️ <b>Framework Mastery:</b> 🟩🟩🟩🟩🟩🟩🟩🟩▒▒ [80%]<br/>
-      ⚡ <b>Backend Systems:</b> 🟩🟩🟩🟩🟩🟩🟩▒▒▒ [70%]<br/>
-      🎨 <b>Frontend Aesthetics:</b> 🟩🟩🟩🟩🟩🟩▒▒▒▒ [60%]<br/>
-      ☁️ <b>Cloud & DevOps:</b> 🟩🟩🟩🟩🟩🟩🟩▒▒▒ [70%]<br/>
-      🛠️ <b>Dev Tools:</b> 🟩🟩🟩🟩🟩🟩🟩🟩▒▒ [80%]<br/>
-    </td>
-  </tr>
-</table>
+```
+ ╔═══════════════════════════════════════════════════════════╗
+ ║  🎮  P L A Y E R   S E L E C T E D                      ║
+ ╠═══════════════════════════════════════════════════════════╣
+ ║                                                           ║
+ ║   NAME .......... VARUN S           LVL ...... 7.64       ║
+ ║   CLASS ......... AI/ML BUILDER     MANA ..... ████ 100%  ║
+ ║   RANK .......... PRODUCTION ENGINEER                     ║
+ ║                                                           ║
+ ║   ⚔️  AI/ML        ████████████████████░░ 90%  ⬤ MAXED   ║
+ ║   🛡️  Frameworks   ████████████████░░░░░░ 80%  ▲ HIGH    ║
+ ║   ⚡ Backend       ██████████████░░░░░░░░ 70%  ▲ HIGH    ║
+ ║   🎨 Frontend      ████████████░░░░░░░░░░ 60%  ● MID     ║
+ ║   ☁️  Cloud/DevOps  ██████████████░░░░░░░░ 70%  ▲ HIGH    ║
+ ║   🛠️  Tools         ████████████████░░░░░░ 80%  ▲ HIGH    ║
+ ║                                                           ║
+ ║   🏆 ACHIEVEMENTS: 6 Systems Deployed · 5 Hackathons     ║
+ ║   📜 QUESTS ACTIVE: AI/ML & SWE Internships               ║
+ ║                                                           ║
+ ╚═══════════════════════════════════════════════════════════╝
+```
 
 <br/>
 
