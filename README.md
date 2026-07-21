@@ -10,7 +10,7 @@
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=%E2%96%88%E2%96%93%E2%96%92%E2%96%91+INITIALIZING+NEURAL+CORE+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%9A%A1+SYSTEM+ONLINE+%7C+ALL+MODULES+OPERATIONAL+%E2%9A%A1" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=800&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" /></a>
 
 <br/>
 
