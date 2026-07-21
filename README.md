@@ -160,28 +160,48 @@
 
 </div>
 
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                         CORE CAPABILITIES MATRIX                           │
-├──────────────────────┬─────────────────────────────────────────────────────┤
-│  AI/ML               │  Deep Learning · CV · NLP · GenAI · LLMs          │
-│                      │  Prompt Engineering · RAG · Agentic AI            │
-│                      │  Knowledge Graphs · Time-Series · GNNs            │
-├──────────────────────┼─────────────────────────────────────────────────────┤
-│  Frameworks          │  PyTorch · TensorFlow · Keras · Scikit-learn      │
-│                      │  HuggingFace · LangChain · LangGraph             │
-│                      │  PyTorch Geometric · FAISS · ChromaDB             │
-├──────────────────────┼─────────────────────────────────────────────────────┤
-│  Backend             │  FastAPI · Flask · Node.js · Express.js           │
-│                      │  REST APIs · JWT Auth · Redis · MySQL             │
-├──────────────────────┼─────────────────────────────────────────────────────┤
-│  Frontend            │  React.js · Next.js · HTML5/CSS3 · Vite           │
-├──────────────────────┼─────────────────────────────────────────────────────┤
-│  Infrastructure      │  Docker · K8s · AWS EC2/S3 · GitHub Actions       │
-│                      │  Vercel · Prometheus · OpenTelemetry              │
-├──────────────────────┼─────────────────────────────────────────────────────┤
-│  Tools               │  Judge0 · Monaco · Streamlit · Gradio · MLflow    │
-└──────────────────────┴─────────────────────────────────────────────────────┘
+```mermaid
+graph LR
+    %% Styles
+    classDef root fill:#00FF41,stroke:#00FF41,stroke-width:2px,color:#000000,font-weight:bold;
+    classDef cat fill:#003300,stroke:#00FF41,stroke-width:1.5px,color:#00FF41,font-weight:bold;
+    classDef tech fill:#0d1117,stroke:#00FF41,stroke-width:1px,stroke-dasharray: 5 5,color:#c9d1d9;
+
+    Root["🧠 CORE CAPABILITIES"]:::root
+
+    AI["AI / ML"]:::cat
+    FW["Frameworks"]:::cat
+    BE["Backend"]:::cat
+    FE["Frontend"]:::cat
+    INF["Infrastructure"]:::cat
+    TL["Tools & Ops"]:::cat
+
+    Root --> AI
+    Root --> FW
+    Root --> BE
+    Root --> FE
+    Root --> INF
+    Root --> TL
+
+    AI --> AI1["Deep Learning · CV · NLP"]:::tech
+    AI --> AI2["GenAI · LLMs · RAG · Agentic AI"]:::tech
+    AI --> AI3["GNNs · Time-Series · Graphs"]:::tech
+
+    FW --> FW1["PyTorch · TensorFlow · Keras · Sklearn"]:::tech
+    FW --> FW2["HuggingFace · LangChain · LangGraph"]:::tech
+    FW --> FW3["PyTorch Geometric · FAISS · ChromaDB"]:::tech
+
+    BE --> BE1["FastAPI · Flask · Node.js · Express"]:::tech
+    BE --> BE2["REST APIs · JWT Auth · Redis · MySQL"]:::tech
+
+    FE --> FE1["React.js · Next.js · Vite · HTML5/CSS3"]:::tech
+
+    INF --> INF1["Docker · Kubernetes · AWS EC2/S3"]:::tech
+    INF --> INF2["GitHub Actions · Vercel"]:::tech
+    INF --> INF3["Prometheus · OpenTelemetry"]:::tech
+
+    TL --> TL1["Judge0 · Monaco Editor"]:::tech
+    TL --> TL2["Streamlit · Gradio · MLflow"]:::tech
 ```
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
