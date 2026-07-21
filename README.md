@@ -160,49 +160,105 @@
 
 </div>
 
-```mermaid
-graph LR
-    %% Styles
-    classDef root fill:#00FF41,stroke:#00FF41,stroke-width:2px,color:#000000,font-weight:bold;
-    classDef cat fill:#003300,stroke:#00FF41,stroke-width:1.5px,color:#00FF41,font-weight:bold;
-    classDef tech fill:#0d1117,stroke:#00FF41,stroke-width:1px,stroke-dasharray: 5 5,color:#c9d1d9;
+<div align="center">
 
-    Root["🧠 CORE CAPABILITIES"]:::root
+### 🎮 SELECT YOUR FIGHTER: VARUN S
 
-    AI["AI / ML"]:::cat
-    FW["Frameworks"]:::cat
-    BE["Backend"]:::cat
-    FE["Frontend"]:::cat
-    INF["Infrastructure"]:::cat
-    TL["Tools & Ops"]:::cat
+<table>
+  <tr>
+    <td align="center" width="45%">
+      <img src="https://media.giphy.com/media/iY8CRBdQFOQ/giphy.gif" width="120" /><br/>
+      <b>CLASS: AI/ML BUILDER</b><br/>
+      <code>LVL: 7.64 (CGPA)</code><br/>
+      <code>MANA: 100% (ONLINE)</code>
+    </td>
+    <td>
+      <b>📊 CHARACTER STATS:</b><br/>
+      ⚔️ <b>AI/ML Power:</b> 🟩🟩🟩🟩🟩🟩🟩🟩🟩▒ [90%]<br/>
+      🛡️ <b>Framework Mastery:</b> 🟩🟩🟩🟩🟩🟩🟩🟩▒▒ [80%]<br/>
+      ⚡ <b>Backend Systems:</b> 🟩🟩🟩🟩🟩🟩🟩▒▒▒ [70%]<br/>
+      🎨 <b>Frontend Aesthetics:</b> 🟩🟩🟩🟩🟩🟩▒▒▒▒ [60%]<br/>
+      ☁️ <b>Cloud & DevOps:</b> 🟩🟩🟩🟩🟩🟩🟩▒▒▒ [70%]<br/>
+      🛠️ <b>Dev Tools:</b> 🟩🟩🟩🟩🟩🟩🟩🟩▒▒ [80%]<br/>
+    </td>
+  </tr>
+</table>
 
-    Root --> AI
-    Root --> FW
-    Root --> BE
-    Root --> FE
-    Root --> INF
-    Root --> TL
+<br/>
 
-    AI --> AI1["Deep Learning · CV · NLP"]:::tech
-    AI --> AI2["GenAI · LLMs · RAG · Agentic AI"]:::tech
-    AI --> AI3["GNNs · Time-Series · Graphs"]:::tech
+### 🌳 EXPAND ACTIVE SKILL TREES:
 
-    FW --> FW1["PyTorch · TensorFlow · Keras · Sklearn"]:::tech
-    FW --> FW2["HuggingFace · LangChain · LangGraph"]:::tech
-    FW --> FW3["PyTorch Geometric · FAISS · ChromaDB"]:::tech
+<details>
+<summary><b>🧠 SKILL TREE 01: AI/ML CORE</b></summary>
+<br/>
+<table>
+  <tr>
+    <td><b>Specializations:</b></td>
+    <td>Deep Learning · CV · NLP · GenAI · LLMs · RAG · Agentic AI · GNNs · Time-Series</td>
+  </tr>
+  <tr>
+    <td><b>Infra / Vector:</b></td>
+    <td>FAISS · ChromaDB · Ollama · MLflow</td>
+  </tr>
+</table>
+</details>
 
-    BE --> BE1["FastAPI · Flask · Node.js · Express"]:::tech
-    BE --> BE2["REST APIs · JWT Auth · Redis · MySQL"]:::tech
+<details>
+<summary><b>🔥 SKILL TREE 02: FRAMEWORKS & LIBS</b></summary>
+<br/>
+<table>
+  <tr>
+    <td><b>Libraries:</b></td>
+    <td>PyTorch · TensorFlow · Keras · Scikit-learn · HuggingFace · LangChain · LangGraph · PyTorch Geometric</td>
+  </tr>
+</table>
+</details>
 
-    FE --> FE1["React.js · Next.js · Vite · HTML5/CSS3"]:::tech
+<details>
+<summary><b>⚙️ SKILL TREE 03: SYSTEM BACKEND</b></summary>
+<br/>
+<table>
+  <tr>
+    <td><b>APIs & DBs:</b></td>
+    <td>FastAPI · Flask · Node.js · Express.js · REST APIs · JWT Auth · Redis · MySQL</td>
+  </tr>
+</table>
+</details>
 
-    INF --> INF1["Docker · Kubernetes · AWS EC2/S3"]:::tech
-    INF --> INF2["GitHub Actions · Vercel"]:::tech
-    INF --> INF3["Prometheus · OpenTelemetry"]:::tech
+<details>
+<summary><b>🎨 SKILL TREE 04: SYSTEM FRONTEND</b></summary>
+<br/>
+<table>
+  <tr>
+    <td><b>UI & Engines:</b></td>
+    <td>React.js · Next.js · HTML5/CSS3 · Vite</td>
+  </tr>
+</table>
+</details>
 
-    TL --> TL1["Judge0 · Monaco Editor"]:::tech
-    TL --> TL2["Streamlit · Gradio · MLflow"]:::tech
-```
+<details>
+<summary><b>☁️ SKILL TREE 05: CLOUD & DEVOPS</b></summary>
+<br/>
+<table>
+  <tr>
+    <td><b>Infrastructure:</b></td>
+    <td>Docker · Kubernetes · AWS EC2/S3 · GitHub Actions · Vercel · Prometheus · OpenTelemetry</td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary><b>🛠️ SKILL TREE 06: BUILDER TOOLS</b></summary>
+<br/>
+<table>
+  <tr>
+    <td><b>Dev Tools:</b></td>
+    <td>Judge0 · Monaco Editor · Streamlit · Gradio</td>
+  </tr>
+</table>
+</details>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
