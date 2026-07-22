@@ -16,11 +16,11 @@
 
 <br/><br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=800&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=850&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" /></a>
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=00FF41&background=0D1117&center=true&vCenter=true&width=900&lines=%F0%9F%94%AE+6+Production+AI+Systems+Deployed+%7C+GNN+%C2%B7+CV+%C2%B7+LLM+%C2%B7+RAG+%C2%B7+Agentic+AI;%F0%9F%8E%AF+CSE+%40+Bannari+Amman+Institute+of+Technology+%7C+Class+of+2028;%F0%9F%9A%80+Seeking+AI%2FML+%26+Software+Engineering+Internships;%F0%9F%92%BB+Building+intelligent+systems+that+solve+real-world+problems;%F0%9F%A7%A0+From+Graph+Neural+Networks+to+Full-Stack+AI+Platforms" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2500&pause=800&color=00FF41&background=0D1117&center=true&vCenter=true&width=850&height=50&lines=%F0%9F%94%AE+6+Production+AI+Systems+Deployed+%7C+GNN+%C2%B7+CV+%C2%B7+LLM+%C2%B7+RAG+%C2%B7+Agentic+AI;%F0%9F%8E%AF+CSE+%40+Bannari+Amman+Institute+of+Technology+%7C+Class+of+2028;%F0%9F%9A%80+Seeking+AI%2FML+%26+Software+Engineering+Internships;%F0%9F%92%BB+Building+intelligent+systems+that+solve+real-world+problems;%F0%9F%A7%A0+From+Graph+Neural+Networks+to+Full-Stack+AI+Platforms" alt="Typing SVG" /></a>
 
 <br/><br/>
 
@@ -452,7 +452,7 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <br/><br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=00FF41&background=0D1117&center=true&vCenter=true&width=600&lines=%22Talk+is+cheap.+Show+me+the+code.%22+%E2%80%94+Torvalds;%22The+best+way+to+predict+the+future+is+to+build+it.%22;%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22;%E2%9A%A1+Let's+build+something+extraordinary+together!" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1500&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=50&lines=%22Talk+is+cheap.+Show+me+the+code.%22+%E2%80%94+Torvalds;%22The+best+way+to+predict+the+future+is+to+build+it.%22;%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22;%E2%9A%A1+Let's+build+something+extraordinary+together!" alt="Typing SVG" /></a>
 
 <br/><br/>
 
