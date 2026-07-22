@@ -1,121 +1,58 @@
 <div align="center">
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                    NEURAL_OS — BOOT SEQUENCE HEADER                     ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░  ANIMATED WAVING HEADER WITH 3D DEPTH  ░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:00FF41&height=300&text=VARUN%20S&fontSize=90&fontColor=00FF41&animation=twinkling&fontAlignY=35&desc=%E2%9A%A1%20AI%20ENGINEER%20%20%E2%80%A2%20%20NEURAL%20ARCHITECT%20%20%E2%80%A2%20%20SYSTEM%20BUILDER&descAlignY=62&descSize=15&descColor=00cc33&stroke=00FF41&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:00FF41&height=300&text=VARUN%20S&fontSize=90&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=⚡%20AI%2FML%20ENGINEER%20%20%E2%80%A2%20%20SYSTEMS%20ARCHITECT%20%20%E2%80%A2%20%20BUILDER&descAlignY=62&descSize=15&descColor=00cc33&stroke=00FF41&strokeWidth=1" width="100%"/>
 
-<!-- ═══════ GLITCH EFFECT SVG ═══════ -->
-
-<br/>
-
-<img src="./assets/header-glitch.svg" width="550"/>
-
-<br/><br/>
-
-<!-- ═══════ BOOT SEQUENCE — PRIMARY TYPING ═══════ -->
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=800&height=45&lines=%3E+NEURAL_OS+v4.2.0+%E2%80%94+SYSTEM+BOOT+COMPLETE+%E2%9A%A1;%3E+Building+Intelligent+AI+Systems+That+Think+%26+Scale+%F0%9F%A7%A0;%3E+6+Production+Systems+Deployed+%7C+Real+Impact+%F0%9F%94%AE" alt="Typing SVG" /></a>
+<!-- ═══════ ANIMATED TYPING TERMINAL SEQUENCE ═══════ -->
 
 <br/>
 
-<!-- ═══════ BOOT SEQUENCE — SECONDARY TYPING ═══════ -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=800&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" /></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2500&pause=800&color=00FF41&background=0D1117&center=true&vCenter=true&width=880&height=35&lines=%5B%E2%9C%93%5D+AI%2FML+modules+loaded...+DONE+%7C+%5B%E2%9C%93%5D+Encryption+engaged...+SECURED;%5B%E2%9C%93%5D+6+neural+systems+online+%7C+%5B%E2%9C%93%5D+Identity%3A+VARUN+S+%7C+AI+Engineer;%F0%9F%8E%AF+CSE+%40+Bannari+Amman+Institute+of+Technology+%7C+Class+of+2028;%F0%9F%9A%80+Seeking+AI%2FML+%26+Software+Engineering+Internships;%F0%9F%A7%A0+From+Graph+Neural+Networks+to+Full-Stack+AI+Platforms" alt="Typing SVG" /></a>
+<br/>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=00FF41&background=0D1117&center=true&vCenter=true&width=900&lines=%F0%9F%94%AE+6+Production+AI+Systems+Deployed+%7C+GNN+%C2%B7+CV+%C2%B7+LLM+%C2%B7+RAG+%C2%B7+Agentic+AI;%F0%9F%8E%AF+CSE+%40+Bannari+Amman+Institute+of+Technology+%7C+Class+of+2028;%F0%9F%9A%80+Seeking+AI%2FML+%26+Software+Engineering+Internships;%F0%9F%92%BB+Building+intelligent+systems+that+solve+real-world+problems;%F0%9F%A7%A0+From+Graph+Neural+Networks+to+Full-Stack+AI+Platforms" alt="Typing SVG" /></a>
 
 <br/><br/>
 
-<!-- ═══════ ACCESS PORT BADGES ═══════ -->
+<!-- ═══════ SOCIAL BADGES WITH GLOW EFFECT ═══════ -->
 
 <a href="https://linkedin.com/in/varun-s-41bb95357">
-  <img src="https://img.shields.io/badge/-%F0%9F%94%97_ACCESS::LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/-%E2%9A%A1_LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="https://github.com/Varun072006">
-  <img src="https://img.shields.io/badge/-%F0%9F%94%AE_ACCESS::GITHUB-000000?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/-%F0%9F%94%AE_GITHUB-000000?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub"/>
 </a>
 &nbsp;
 <a href="https://leetcode.com/u/wYbMiQ6gOX">
-  <img src="https://img.shields.io/badge/-%F0%9F%92%80_ACCESS::LEETCODE-000000?style=for-the-badge&logo=leetcode&logoColor=00FF41" alt="LeetCode"/>
+  <img src="https://img.shields.io/badge/-%F0%9F%92%80_LEETCODE-000000?style=for-the-badge&logo=leetcode&logoColor=00FF41" alt="LeetCode"/>
 </a>
 &nbsp;
 <a href="https://github.com/Varun072006">
-  <img src="https://komarev.com/ghpvc/?username=Varun072006&style=for-the-badge&color=00FF41&labelColor=000000&label=%F0%9F%91%81%EF%B8%8F+PROFILE+SCANS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Varun072006&style=for-the-badge&color=00FF41&labelColor=000000&label=%F0%9F%91%81%EF%B8%8F+PROFILE+VIEWS" alt="Profile Views"/>
 </a>
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                         THREAT PROFILE — IDENTITY                       ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░░  ANIMATED DIVIDER  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/cyber-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-<div align="center">
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp; `THREAT_PROFILE::IDENTITY` &nbsp; <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-
-</div>
-
-```
- ┌──────────────────────────────────────────────────────────────────────┐
- │                                                                      │
- │   $ whoami                                                           │
- │   ─────────────────────────────────────────────────────────────────   │
- │                                                                      │
- │   OPERATOR .............. Varun S                                    │
- │   CLASS ................. CSE — Bannari Amman Institute of Tech      │
- │   BUILD ................. 2024 – 2028 (CGPA 7.64/10)               │
- │   DIRECTIVE ............. Design, train, and deploy AI systems      │
- │   SPECIALIZATION ........ GNN · CV · LLM · RAG · Agentic AI        │
- │   MISSION ............... AI Engineer · SWE · Full-Stack Dev        │
- │   STATUS ................ 🟢 ONLINE & BUILDING                      │
- │                                                                      │
- │   $ cat /proc/neural/capabilities                                    │
- │   > 6 production systems deployed                                    │
- │   > Real users. Real impact. Real code.                             │
- │                                                                      │
- └──────────────────────────────────────────────────────────────────────┘
-```
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░░  TECH STACK — ANIMATED GRID  ░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-```
- ⚡ OFFENSIVE CAPABILITIES                      🎯 CURRENT OPERATIONS
- ══════════════════════════════                  ══════════════════════════════
- 🔮 GNN fraud detection engines                  🔭 Training GNNs on temporal graphs
- 🧠 LLM routing & agentic systems                🌱 Exploring multi-agent orchestration
- 📖 Offline-first accessibility tools             💼 Seeking AI/ML & SWE internships
- 🚄 Real-time hazard detection (DAS)              🤝 Open to collaborations on GenAI
- 💻 Full-stack AI-powered platforms               📫 Let's connect on LinkedIn!
-```
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> &nbsp; `MODULE::TECH_STACK` &nbsp; <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28">
 
 <br/>
-
-<a href="https://github.com/hackelite01/github-readme-cyber-quotes">
-  <img src="https://github-readme-cyber-quotes.vercel.app/api?type=horizontal&theme=matrix" alt="Cyber Quote"/>
-</a>
-
-</div>
-
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                       WEAPON SYSTEMS — TECH ARSENAL                     ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
-
-<img src="./assets/cyber-divider.svg" width="100%">
-
-<div align="center">
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> &nbsp; `WEAPON_SYSTEMS::ARSENAL` &nbsp; <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28">
-
-<br/>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=500&color=00FF41&background=0D1117&center=true&vCenter=true&width=500&height=30&lines=%24+sudo+load-modules+--all+--verbose;Loading+neural+cores...+%E2%9C%93;Loading+attack+vectors...+%E2%9C%93;Loading+defense+grid...+%E2%9C%93;All+weapon+systems+online.+%E2%9A%A1" alt="Typing SVG" /></a>
-
-<br/><br/>
-
-<!-- ═══════ ANIMATED TECH ICONS ═══════ -->
 
 <table>
 <tr><td align="center" width="96">
@@ -171,89 +108,73 @@
 
 <br/>
 
-<!-- ═══════ NEURAL CORES (AI/ML) ═══════ -->
-
-### 🧠 `NEURAL_CORES` — AI / ML / Deep Learning
-
+### 🧠 AI / ML / Deep Learning
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" />
 <br/>
-<img src="https://img.shields.io/badge/HuggingFace-000000?style=for-the-badge&logo=huggingface&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/PyTorch_Geometric-000000?style=for-the-badge&logo=pytorch&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/FAISS-000000?style=for-the-badge&logo=meta&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/ChromaDB-000000?style=for-the-badge&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/MLflow-000000?style=for-the-badge&logo=mlflow&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=fff" />
+<img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=fff" />
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=fff" />
+<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=fff" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=fff" />
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=fff" />
 
-<br/>
-
-### ⚔️ `ATTACK_VECTORS` — Full-Stack Development
-
+### 🌐 Full-Stack Development
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask,vite,html,css&theme=dark" />
 
-<br/>
-
-### 🛡️ `DEFENSE_GRID` — Cloud & DevOps
-
+### ☁️ Cloud & DevOps
 <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,vercel,git,githubactions,redis&theme=dark" />
 
 <br/>
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                     DEPLOYED EXPLOITS — MISSION LOG                     ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<div align="center">
 
-<img src="./assets/cyber-divider.svg" width="100%">
+```
+⚡ WHAT I BUILD                             🎯 WHAT I'M UP TO NOW
+───────────────────────────                  ───────────────────────────
+🔮 GNN fraud detection engines               🔭 Training GNNs on temporal graphs
+🧠 LLM routing & agentic systems             🌱 Exploring multi-agent orchestration
+📖 Offline-first accessibility tools          💼 Seeking AI/ML & SWE internships
+🚄 Real-time hazard detection (DAS)           🤝 Open to collaborations on GenAI
+💻 Full-stack coding platforms                📫 Let's connect on LinkedIn!
+```
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░  NEURAL SYSTEMS DEPLOYED  ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## <img src="https://media.giphy.com/media/iY8CRBdQFOQ/giphy.gif" width="30"> &nbsp; `DEPLOYED_EXPLOITS::MISSION_LOG` &nbsp; <img src="https://media.giphy.com/media/iY8CRBdQFOQ/giphy.gif" width="30">
+## <img src="https://media.giphy.com/media/iY8CRBdQFOQ/giphy.gif" width="30"> &nbsp; `MODULE::DEPLOYED_SYSTEMS` &nbsp; <img src="https://media.giphy.com/media/iY8CRBdQFOQ/giphy.gif" width="30">
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=00FF41&background=0D1117&center=true&vCenter=true&width=700&height=35&lines=%E2%96%B6+6+CLASSIFIED+SYSTEMS+%7C+REAL+USERS+%7C+REAL+IMPACT;%E2%96%B6+CLEARANCE+LEVEL%3A+TOP+SECRET+%F0%9F%94%92" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=00FF41&background=0D1117&center=true&vCenter=true&width=700&lines=%E2%96%B6+6+PRODUCTION+SYSTEMS+%7C+REAL+USERS+%7C+REAL+IMPACT" alt="Typing SVG" /></a>
 
 </div>
 
 <br/>
 
 <details>
-<summary>🔒 <b><code>EXPLOIT_001</code></b> — 🔮 <b>MuleNet.ai</b> — Graph Neural Network Fraud Detection Engine</summary>
+<summary><b>🔮 MuleNet.ai — Graph Neural Network Fraud Detection Engine</b></summary>
 <br/>
 
-```bash
-$ ./deploy MuleNet.ai --mode=production --clearance=TOP_SECRET
-══════════════════════════════════════════════════════════════
- 🔮 SYSTEM    Graph Neural Network Fraud Detection Engine
- ⚙️  STACK     Python · PyTorch · PyG (PyTorch Geometric) · FastAPI · Neo4j
-══════════════════════════════════════════════════════════════
- ▸ Multi-graph attention network on temporal transaction graphs
- ▸ Node classification + link prediction for financial fraud detection
- ▸ Real-time inference pipeline with sub-second latency
- ▸ Graph-based feature engineering with temporal aggregation
-
-   ╭──────────────────────────────────────╮
-   │  MODEL AUC-ROC ....... 0.96         │
-   │  PRECISION ........... 94%          │
-   │  INFERENCE TIME ...... <500ms       │
-   ╰──────────────────────────────────────╯
-
- ▸ FastAPI serving layer + Neo4j graph database
- ▸ Docker containerized deployment pipeline
-
- [████████████████████████████████████████] STATUS: DEPLOYED ✅
 ══════════════════════════════════════════════════════════════
 ```
 </details>
 
 <details>
-<summary>🔒 <b><code>EXPLOIT_002</code></b> — 🎓 <b>LearnQuest.ai</b> — AI Learning & Secure Assessment Platform</summary>
+<summary><b>🎓 LearnQuest.ai — AI Learning & Secure Assessment Platform</b></summary>
 <br/>
 
 ```bash
-$ ./deploy LearnQuest.ai --mode=production --clearance=SECRET
+$ ./deploy LearnQuest.ai --mode=production
 ══════════════════════════════════════════════════════════════
  🎓 SYSTEM    AI Learning & Secure Assessment Platform
  ⚙️  STACK     React · Node.js · Express · MySQL · YOLOv5 · MediaPipe
@@ -276,11 +197,11 @@ $ ./deploy LearnQuest.ai --mode=production --clearance=SECRET
 </details>
 
 <details>
-<summary>🔒 <b><code>EXPLOIT_003</code></b> — 🚄 <b>SonicRail.ai</b> — AI-Powered Railway Hazard Detection</summary>
+<summary><b>🚄 SonicRail.ai — AI-Powered Railway Hazard Detection</b></summary>
 <br/>
 
 ```bash
-$ ./deploy SonicRail.ai --mode=production --clearance=SECRET
+$ ./deploy SonicRail.ai --mode=production
 ══════════════════════════════════════════════════════════════
  🚄 SYSTEM    AI-Powered Railway Hazard Detection
  ⚙️  STACK     Python · Flask · React · TensorFlow · CNN-BiLSTM · Docker
@@ -302,11 +223,11 @@ $ ./deploy SonicRail.ai --mode=production --clearance=SECRET
 </details>
 
 <details>
-<summary>🔒 <b><code>EXPLOIT_004</code></b> — 📖 <b>Adaptive Cognitive Reading Companion</b> — Accessibility Platform</summary>
+<summary><b>📖 Adaptive Cognitive Reading Companion — Accessibility Platform</b></summary>
 <br/>
 
 ```bash
-$ ./deploy ACRC.ai --mode=production --clearance=SECRET
+$ ./deploy AdaptiveCognitiveReadingCompanion.ai --mode=production
 ══════════════════════════════════════════════════════════════
  📖 SYSTEM    Offline-First Accessibility Platform (dyslexia/ADHD)
  ⚙️  STACK     Next.js · FastAPI · Llama 3 · BERT · PaddleOCR · Docker
@@ -328,11 +249,11 @@ $ ./deploy ACRC.ai --mode=production --clearance=SECRET
 </details>
 
 <details>
-<summary>🔒 <b><code>EXPLOIT_005</code></b> — 🛡️ <b>AegisNet.ai</b> — LLM Routing & Multi-Model Orchestration Gateway</summary>
+<summary><b>🛡️ AegisNet.ai — LLM Routing & Multi-Model Orchestration Gateway</b></summary>
 <br/>
 
 ```bash
-$ ./deploy AegisNet.ai --mode=production --clearance=TOP_SECRET
+$ ./deploy AegisNet.ai --mode=production
 ══════════════════════════════════════════════════════════════
  🛡️ SYSTEM    LLM Routing & Multi-Model Orchestration Gateway
  ⚙️  STACK     Python · TypeScript · Docker · Kubernetes · Prometheus
@@ -353,11 +274,11 @@ $ ./deploy AegisNet.ai --mode=production --clearance=TOP_SECRET
 </details>
 
 <details>
-<summary>🔒 <b><code>EXPLOIT_006</code></b> — 💻 <b>AIPracticeHub.ai</b> — Full-Stack Coding Platform</summary>
+<summary><b>💻 AIPracticeHub.ai — Full-Stack Coding Platform</b></summary>
 <br/>
 
 ```bash
-$ ./deploy AIPracticeHub.ai --mode=production --clearance=SECRET
+$ ./deploy AIPracticeHub.ai --mode=production
 ══════════════════════════════════════════════════════════════
  💻 SYSTEM    Full-Stack Coding Platform
  ⚙️  STACK     React · Node.js · Express · TypeScript · MySQL · Docker
@@ -378,64 +299,62 @@ $ ./deploy AIPracticeHub.ai --mode=production --clearance=SECRET
 <sub>🔗 <b>Full source code →</b> <a href="https://github.com/Varun072006?tab=repositories">github.com/Varun072006/repositories</a></sub>
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                       INTERCEPT LOG — OPERATIONS                        ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-<img src="./assets/cyber-divider.svg" width="100%">
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░░  COMPETITION & HACKATHON LOG  ░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## 🏆 &nbsp; `INTERCEPT_LOG::OPERATIONS` &nbsp; 🏆
-
-<br/>
-
-| 🔒 OPERATION | 🎯 MISSION OBJECTIVE | 📊 STATUS |
-|:---|:---|:---:|
-| **`INTELLITRACE_2026`** | 🏦 AI-driven solutions for fintech & banking | `COMPLETED` |
-| **`ANZ_DIVERSITY`** | 🌏 National innovation challenge, ANZ | `COMPLETED` |
-| **`AI_FOR_BHARAT`** | 📚 AI-powered educational accessibility | `COMPLETED` |
-| **`AMD_SLINGSHOT`** | ⚡ AI + HPC innovation challenge | `COMPLETED` |
-| **`YUVAAN_AVEVA`** | 🏭 Industrial AI & digital transformation | `COMPLETED` |
+## 🏆 &nbsp; `MODULE::BATTLE_LOG` &nbsp; 🏆
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                        ACCESS KEYS — CLEARANCE                          ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
-
-<img src="./assets/cyber-divider.svg" width="100%">
-
 <div align="center">
 
-## 🔑 &nbsp; `ACCESS_KEYS::CLEARANCE` &nbsp; 🔑
-
-<br/>
-
-<img src="https://img.shields.io/badge/Cisco-Python_Essentials_1-000000?style=for-the-badge&logo=cisco&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/HP_LIFE-Python_for_Data_Science-000000?style=for-the-badge&logo=hp&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/Simplilearn-ML_Using_Python-000000?style=for-the-badge&logoColor=00FF41" />
-<br/>
-<img src="https://img.shields.io/badge/Microsoft_Azure-Fundamentals-000000?style=for-the-badge&logo=microsoftazure&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/AWS-Cloud_Practitioner_Essentials-000000?style=for-the-badge&logo=amazonaws&logoColor=00FF41" />
+| Competition | Domain |
+|:---|:---|
+| **Intellitrace 2026** | 🏦 AI-driven solutions for fintech & banking |
+| **ANZ Diversity Hackathon** | 🌏 National innovation challenge, ANZ |
+| **AI for Bharat** | 📚 AI-powered educational accessibility |
+| **AMD Slingshot** | ⚡ AI + HPC innovation challenge |
+| **Yuvaan by AVEVA** | 🏭 Industrial AI & digital transformation |
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                      NEURAL TELEMETRY — LIVE FEED                       ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-<img src="./assets/cyber-divider.svg" width="100%">
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░░  CERTIFICATIONS  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> &nbsp; `NEURAL_TELEMETRY::LIVE_FEED` &nbsp; <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30">
+## 🔑 &nbsp; `MODULE::CERTIFICATION_KEYS` &nbsp; 🔑
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=13&duration=2000&pause=500&color=00FF41&background=0D1117&center=true&vCenter=true&width=400&height=25&lines=%24+cat+%2Fproc%2Fneural%2Ftelemetry;Streaming+live+metrics...+%E2%9A%A1" alt="Typing SVG" /></a>
+<img src="https://img.shields.io/badge/Cisco-Python_Essentials_1-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+<img src="https://img.shields.io/badge/HP_LIFE-Python_for_Data_Science-0096D6?style=for-the-badge&logo=hp&logoColor=white" />
+<img src="https://img.shields.io/badge/Simplilearn-ML_Using_Python-FF6C37?style=for-the-badge&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Microsoft_Azure-Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-Cloud_Practitioner_Essentials-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
 
-<br/><br/>
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░░  LIVE TELEMETRY — STATS  ░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> &nbsp; `MODULE::LIVE_TELEMETRY` &nbsp; <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30">
+
+<br/>
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=Varun072006&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=003300&ring_color=00FF41&include_all_commits=true&count_private=true" />
 &nbsp;&nbsp;
@@ -447,7 +366,7 @@ $ ./deploy AIPracticeHub.ai --mode=production --clearance=SECRET
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Varun072006&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=003300&hide_border=true&custom_title=%F0%9F%93%A1%20Neural%20Activity%20Monitor%20%E2%80%94%20Live%20Signal" width="90%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Varun072006&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=003300&hide_border=true&custom_title=📈%20Contribution%20Activity%20Graph" width="90%" />
 
 <br/><br/>
 
@@ -455,41 +374,35 @@ $ ./deploy AIPracticeHub.ai --mode=production --clearance=SECRET
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                      HOLOGRAPHIC RENDER — 3D MATRIX                     ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-<img src="./assets/cyber-divider.svg" width="100%">
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░  3D CONTRIBUTION GRAPH  ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## 🌐 &nbsp; `HOLOGRAPHIC_RENDER::3D_MATRIX` &nbsp; 🌐
-
-<br/>
+## 🌐 &nbsp; `MODULE::3D_CORE_RENDER` &nbsp; 🌐
 
 <!--START_GRAPH-->
-<img src="./profile-3d-contrib/profile-night-green.svg" width="90%" alt="3D Neural Core Render" />
+<img src="./profile-3d-contrib/profile-night-green.svg" width="90%" alt="3D contribution core" />
 <!--END_GRAPH-->
 
-<sub>🔄 Isometric hologram — auto-regenerated nightly via <code>.github/workflows/profile-3d-contrib.yml</code></sub>
+<sub>🔄 Isometric render — auto-regenerated nightly via <code>.github/workflows/profile-3d-contrib.yml</code></sub>
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                    DATA BREACH — PACKET CAPTURE                         ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-<img src="./assets/cyber-divider.svg" width="100%">
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░░  CONTRIBUTION SNAKE  ░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## 🐍 &nbsp; `DATA_BREACH::PACKET_CAPTURE` &nbsp; 🐍
+## 🐍 &nbsp; `MODULE::DATA_STREAM` &nbsp; 🐍
 
 <br/>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=13&duration=2000&pause=500&color=00FF41&background=0D1117&center=true&vCenter=true&width=400&height=25&lines=%24+intercept+--packets+--visual;Capturing+data+streams...+%F0%9F%90%8D" alt="Typing SVG" /></a>
-
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Varun072006/Varun072006/output/snake-matrix.svg" />
@@ -499,15 +412,15 @@ $ ./deploy AIPracticeHub.ai --mode=production --clearance=SECRET
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                       TROPHY VAULT — ACHIEVEMENTS                       ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-<img src="./assets/cyber-divider.svg" width="100%">
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░  GITHUB TROPHIES  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## 🏅 &nbsp; `TROPHY_VAULT::ACHIEVEMENTS` &nbsp; 🏅
+## 🏅 &nbsp; `MODULE::TROPHY_CASE` &nbsp; 🏅
 
 <br/>
 
@@ -515,50 +428,47 @@ $ ./deploy AIPracticeHub.ai --mode=production --clearance=SECRET
 
 </div>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                    SIGNAL INTERCEPT — OPEN CHANNEL                      ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-<img src="./assets/cyber-divider.svg" width="100%">
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ░░░░░░░░░░░░░░░░  CONNECT / FOOTER  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> &nbsp; `SIGNAL_INTERCEPT::OPEN_CHANNEL` &nbsp; <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30">
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> &nbsp; `MODULE::OPEN_CHANNEL` &nbsp; <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30">
 
 <br/>
 
 <a href="https://www.linkedin.com/in/varun-s-41bb95357/">
-  <img src="https://img.shields.io/badge/%F0%9F%94%93_ESTABLISH_LINK-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/Let's_Connect!-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/Varun072006?tab=repositories">
-  <img src="https://img.shields.io/badge/%F0%9F%92%BE_EXPLORE_REPOS-GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Explore_My-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 &nbsp;&nbsp;
 <a href="https://leetcode.com/u/wYbMiQ6gOX">
-  <img src="https://img.shields.io/badge/%E2%9A%94%EF%B8%8F_BATTLE_ME-LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=00FF41" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/Solve_With_Me-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
 </a>
 
 <br/><br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=00FF41&background=0D1117&center=true&vCenter=true&width=600&height=40&lines=%22Talk+is+cheap.+Show+me+the+code.%22+%E2%80%94+Torvalds;%22The+best+way+to+predict+the+future+is+to+build+it.%22;%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22;%E2%9A%A1+Let's+build+something+extraordinary+together!" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=00FF41&background=0D1117&center=true&vCenter=true&width=600&lines=%22Talk+is+cheap.+Show+me+the+code.%22+%E2%80%94+Torvalds;%22The+best+way+to+predict+the+future+is+to+build+it.%22;%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22;%E2%9A%A1+Let's+build+something+extraordinary+together!" alt="Typing SVG" /></a>
 
 <br/><br/>
 
 ```
- ╔══════════════════════════════════════════════════════════════╗
- ║                                                              ║
- ║   > session_type: ENCRYPTED_CHANNEL                         ║
- ║   > uptime: 99.99%                                          ║
- ║   > threat_level: [ NONE DETECTED ]                         ║
- ║   > next_operation: IN_PROGRESS...                          ║
- ║                                                              ║
- ║   ⚡ "I don't just write code — I architect systems         ║
- ║      that think, learn, and scale."                          ║
- ║                                                              ║
- ║   CONNECTION STATUS: AWAITING_YOUR_INPUT █                  ║
- ║                                                              ║
- ╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║                                                            ║
+║   ⚡ "I don't just write code — I architect systems       ║
+║      that think, learn, and scale."                        ║
+║                                                            ║
+║   > connection_status: AWAITING_INPUT_                     ║
+║   > uptime: 99.99%                                         ║
+║   > next_build: IN_PROGRESS...                             ║
+║                                                            ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
@@ -566,3 +476,4 @@ $ ./deploy AIPracticeHub.ai --mode=production --clearance=SECRET
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:001a00,60:003300,100:00FF41&height=120&section=footer&animation=twinkling" width="100%"/>
 
 </div>
+# Varun072006
