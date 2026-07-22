@@ -4,36 +4,36 @@
 <!-- ░░░░░░░░░░░░░  ANIMATED WAVING HEADER WITH 3D DEPTH  ░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:00FF41&height=300&text=VARUN%20S&fontSize=90&fontColor=00FF41&animation=fadeIn&fontAlignY=35&desc=⚡%20AI%2FML%20ENGINEER%20%20%E2%80%A2%20%20SYSTEMS%20ARCHITECT%20%20%E2%80%A2%20%20BUILDER&descAlignY=62&descSize=15&descColor=00cc33&stroke=00FF41&strokeWidth=1" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0B130E,40:1B4332,100:52B788&height=300&text=VARUN%20S&fontSize=90&fontColor=95D5B2&animation=fadeIn&fontAlignY=35&desc=⚡%20AI%2FML%20ENGINEER%20%20%E2%80%A2%20%20SYSTEMS%20ARCHITECT%20%20%E2%80%A2%20%20BUILDER&descAlignY=62&descSize=15&descColor=B7E4C7&stroke=52B788&strokeWidth=1" width="100%"/>
 
 <!-- ═══════ ANIMATED TYPING TERMINAL SEQUENCE ═══════ -->
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=800&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=52B788&center=true&vCenter=true&repeat=true&width=800&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" /></a>
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=00FF41&background=0D1117&center=true&vCenter=true&width=900&lines=%F0%9F%94%AE+6+Production+AI+Systems+Deployed+%7C+GNN+%C2%B7+CV+%C2%B7+LLM+%C2%B7+RAG+%C2%B7+Agentic+AI;%F0%9F%8E%AF+CSE+%40+Bannari+Amman+Institute+of+Technology+%7C+Class+of+2028;%F0%9F%9A%80+Seeking+AI%2FML+%26+Software+Engineering+Internships;%F0%9F%92%BB+Building+intelligent+systems+that+solve+real-world+problems;%F0%9F%A7%A0+From+Graph+Neural+Networks+to+Full-Stack+AI+Platforms" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=52B788&background=0D1F17&center=true&vCenter=true&width=900&lines=%F0%9F%94%AE+6+Production+AI+Systems+Deployed+%7C+GNN+%C2%B7+CV+%C2%B7+LLM+%C2%B7+RAG+%C2%B7+Agentic+AI;%F0%9F%8E%AF+CSE+%40+Bannari+Amman+Institute+of+Technology+%7C+Class+of+2028;%F0%9F%9A%80+Seeking+AI%2FML+%26+Software+Engineering+Internships;%F0%9F%92%BB+Building+intelligent+systems+that+solve+real-world+problems;%F0%9F%A7%A0+From+Graph+Neural+Networks+to+Full-Stack+AI+Platforms" alt="Typing SVG" /></a>
 
 <br/><br/>
 
 <!-- ═══════ SOCIAL BADGES WITH GLOW EFFECT ═══════ -->
 
 <a href="https://linkedin.com/in/varun-s-41bb95357">
-  <img src="https://img.shields.io/badge/-%E2%9A%A1_LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/-%E2%9A%A1_LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=52B788" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="https://github.com/Varun072006">
-  <img src="https://img.shields.io/badge/-%F0%9F%94%AE_GITHUB-000000?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/-%F0%9F%94%AE_GITHUB-000000?style=for-the-badge&logo=github&logoColor=52B788" alt="GitHub"/>
 </a>
 &nbsp;
 <a href="https://leetcode.com/u/wYbMiQ6gOX">
-  <img src="https://img.shields.io/badge/-%F0%9F%92%80_LEETCODE-000000?style=for-the-badge&logo=leetcode&logoColor=00FF41" alt="LeetCode"/>
+  <img src="https://img.shields.io/badge/-%F0%9F%92%80_LEETCODE-000000?style=for-the-badge&logo=leetcode&logoColor=52B788" alt="LeetCode"/>
 </a>
 &nbsp;
 <a href="https://github.com/Varun072006">
-  <img src="https://komarev.com/ghpvc/?username=Varun072006&style=for-the-badge&color=00FF41&labelColor=000000&label=%F0%9F%91%81%EF%B8%8F+PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Varun072006&style=for-the-badge&color=52B788&labelColor=000000&label=%F0%9F%91%81%EF%B8%8F+PROFILE+VIEWS" alt="Profile Views"/>
 </a>
 
 </div>
@@ -41,37 +41,6 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░  ANIMATED DIVIDER  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-
-<div align="center">
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> &nbsp; `SYS.IDENTITY` &nbsp; <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35">
-
-</div>
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                            ║
-║   ██╗   ██╗ █████╗ ██████╗ ██╗   ██╗███╗   ██╗    ███████╗                ║
-║   ██║   ██║██╔══██╗██╔══██╗██║   ██║████╗  ██║    ██╔════╝                ║
-║   ██║   ██║███████║██████╔╝██║   ██║██╔██╗ ██║    ███████╗                ║
-║   ╚██╗ ██╔╝██╔══██║██╔══██╗██║   ██║██║╚██╗██║    ╚════██║                ║
-║    ╚████╔╝ ██║  ██║██║  ██║╚██████╔╝██║ ╚████║    ███████║                ║
-║     ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚══════╝                ║
-║                                                                            ║
-║   ┌─────────────────────────────────────────────────────────────────────┐   ║
-║   │  > UNIT ............... Varun S                                    │   ║
-║   │  > CLASS .............. CSE — Bannari Amman Institute of Tech      │   ║
-║   │  > BUILD .............. 2024 – 2028 (CGPA 7.64/10)                │   ║
-║   │  > DIRECTIVE .......... Design, train, and deploy AI systems      │   ║
-║   │  > SPECIALIZATION ..... GNN · CV · LLM · RAG · Agentic AI        │   ║
-║   │  > MISSION ............ AI/ML Engineer · SWE · Full-Stack         │   ║
-║   │  > STATUS ............. 🟢 ONLINE & BUILDING                      │   ║
-║   └─────────────────────────────────────────────────────────────────────┘   ║
-║                                                                            ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
@@ -186,7 +155,7 @@
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=00FF41&background=0D1117&center=true&vCenter=true&width=700&lines=%E2%96%B6+6+PRODUCTION+SYSTEMS+%7C+REAL+USERS+%7C+REAL+IMPACT" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=52B788&background=0D1F17&center=true&vCenter=true&width=700&lines=%E2%96%B6+6+PRODUCTION+SYSTEMS+%7C+REAL+USERS+%7C+REAL+IMPACT" alt="Typing SVG" /></a>
 
 </div>
 
@@ -387,17 +356,17 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Varun072006&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=003300&ring_color=00FF41&include_all_commits=true&count_private=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Varun072006&show_icons=true&hide_border=true&bg_color=0D1F17&title_color=52B788&icon_color=52B788&text_color=c9d1d9&border_color=1B4332&ring_color=52B788&include_all_commits=true&count_private=true" />
 &nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Varun072006&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9&border_color=003300&langs_count=8" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Varun072006&layout=compact&hide_border=true&bg_color=0D1F17&title_color=52B788&text_color=c9d1d9&border_color=1B4332&langs_count=8" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Varun072006&hide_border=true&background=0D1117&ring=00FF41&fire=FF6600&currStreakLabel=00FF41&sideLabels=00FF41&currStreakNum=00FF41&sideNums=00FF41&dates=555555&stroke=003300" width="60%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Varun072006&hide_border=true&background=0D1F17&ring=52B788&fire=52B788&currStreakLabel=52B788&sideLabels=52B788&currStreakNum=52B788&sideNums=52B788&dates=555555&stroke=1B4332" width="60%" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Varun072006&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=003300&hide_border=true&custom_title=📈%20Contribution%20Activity%20Graph" width="90%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Varun072006&bg_color=0D1F17&color=52B788&line=52B788&point=FFFFFF&area=true&area_color=1B4332&hide_border=true&custom_title=📈%20Contribution%20Activity%20Graph" width="90%" />
 
 <br/><br/>
 
@@ -485,7 +454,7 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <br/><br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=00FF41&background=0D1117&center=true&vCenter=true&width=600&lines=%22Talk+is+cheap.+Show+me+the+code.%22+%E2%80%94+Torvalds;%22The+best+way+to+predict+the+future+is+to+build+it.%22;%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22;%E2%9A%A1+Let's+build+something+extraordinary+together!" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=52B788&background=0D1F17&center=true&vCenter=true&width=600&lines=%22Talk+is+cheap.+Show+me+the+code.%22+%E2%80%94+Torvalds;%22The+best+way+to+predict+the+future+is+to+build+it.%22;%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22;%E2%9A%A1+Let's+build+something+extraordinary+together!" alt="Typing SVG" /></a>
 
 <br/><br/>
 
@@ -504,7 +473,7 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:001a00,60:003300,100:00FF41&height=120&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B130E,40:1B4332,100:52B788&height=120&section=footer&animation=twinkling" width="100%"/>
 
 </div>
 # Varun072006
