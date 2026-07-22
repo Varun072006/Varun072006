@@ -8,7 +8,8 @@
 
 <!-- ═══════ TERMINAL BADGE BANNER ═══════ -->
 
-<img src="./assets/banner-badge.svg" width="85%" alt="AI Engineer Banner" />
+<img src="./assets/banner-badge.svg" width="95%" alt="AI Engineer Banner" />
+
 
 <!-- ═══════ ANIMATED TYPING TERMINAL SEQUENCE ═══════ -->
 
@@ -352,9 +353,9 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Varun072006&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=003300&ring_color=00FF41&include_all_commits=true&count_private=true" />
+<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Varun072006&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=003300&ring_color=00FF41&include_all_commits=true&count_private=true" />
 &nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Varun072006&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9&border_color=003300&langs_count=8" />
+<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Varun072006&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9&border_color=003300&langs_count=8" />
 
 <br/><br/>
 
@@ -420,7 +421,7 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Varun072006&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%" />
+<img src="https://github-profile-trophy-zeta.vercel.app/?username=Varun072006&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%" />
 
 </div>
 
