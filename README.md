@@ -454,18 +454,7 @@ $ ./deploy AIPracticeHub.ai --mode=production
 
 <br/><br/>
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                            ║
-║   ⚡ "I don't just write code — I architect systems       ║
-║      that think, learn, and scale."                        ║
-║                                                            ║
-║   > connection_status: AWAITING_INPUT_                     ║
-║   > uptime: 99.99%                                         ║
-║   > next_build: IN_PROGRESS...                             ║
-║                                                            ║
-╚══════════════════════════════════════════════════════════════╝
-```
+<img src="./assets/system-status.svg" width="85%" alt="System Status Banner" />
 
 <br/>
 
