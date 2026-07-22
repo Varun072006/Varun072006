@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" fill="none">
+  <defs>
+    <!-- Neon Glow Filters -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="dot-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="scan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF41" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FF41" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00FF41" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="box-clip">
+      <rect x="2" y="2" width="796" height="116" rx="12" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes borderPulse {
+      0%, 100% { stroke-opacity: 0.4; stroke: #00FF41; }
+      50% { stroke-opacity: 1; stroke: #00FF66; }
+    }
+    @keyframes textGlow {
+      0%, 100% { fill: #00FF41; opacity: 0.9; }
+      50% { fill: #39FF14; opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes scanline {
+      0% { transform: translateX(-400px); }
+      100% { transform: translateX(800px); }
+    }
+    @keyframes tagGlow {
+      0%, 100% { opacity: 0.85; fill: #00FF41; }
+      50% { opacity: 1; fill: #00FF66; }
+    }
+
+    .box-border {
+      animation: borderPulse 3s infinite ease-in-out;
+    }
+    .main-text {
+      animation: textGlow 2.5s infinite ease-in-out;
+    }
+    .cursor {
+      animation: blink 0.8s infinite;
+    }
+    .sub-text {
+      animation: tagGlow 3s infinite ease-in-out;
+    }
+    .scan-line {
+      animation: scanline 3.5s linear infinite;
+    }
+  </style>
+
+  <!-- Dark Background Container with Animated Border -->
+  <rect x="2" y="2" width="796" height="116" rx="12" fill="#090d16" class="box-border" stroke="#00FF41" stroke-width="1.5" />
+  
+  <!-- Laser Scan Line Effect -->
+  <g clip-path="url(#box-clip)">
+    <rect class="scan-line" x="0" y="2" width="350" height="2" fill="url(#scan-grad)" />
+    <rect class="scan-line" x="0" y="116" width="350" height="2" fill="url(#scan-grad)" />
+  </g>
+
+  <!-- Four Animated Corner Accent Dots -->
+  <circle cx="16" cy="16" r="4.5" fill="#00FF41" filter="url(#dot-glow)"/>
+  <circle cx="784" cy="16" r="4.5" fill="#00FF41" filter="url(#dot-glow)"/>
+  <circle cx="16" cy="104" r="4.5" fill="#FF3366" filter="url(#dot-glow)"/>
+  <circle cx="784" cy="104" r="4.5" fill="#00E5FF" filter="url(#dot-glow)"/>
+
+  <!-- Main Title: AI ENGINEER with blinking terminal cursor -->
+  <g filter="url(#neon-glow)">
+    <text x="400" y="52" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="28" font-weight="800" text-anchor="middle" letter-spacing="4" class="main-text">AI ENGINEER<tspan class="cursor" fill="#00FF41">_</tspan></text>
+  </g>
+
+  <!-- Subtitle Tag Line -->
+  <text x="400" y="88" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2" class="sub-text">( GNN  ·  COMPUTER VISION  ·  LLM  ·  RAG  ·  AGENTIC AI )</text>
+</svg>
