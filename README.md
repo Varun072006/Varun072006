@@ -4,7 +4,15 @@
 <!-- ░░░░░░░░░░░░░  ANIMATED WAVING HEADER WITH 3D DEPTH  ░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/3d-cyber-core.svg" width="100%" alt="3D Neural Core Banner" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:00FF41&height=200&text=VARUN%20S&fontSize=85&fontColor=00FF41&animation=twinkling&fontAlignY=40&desc=⚡%20AI%20ENGINEER%20%20•%20%20NEURAL%20ARCHITECT%20%20•%20%20SYSTEM%20BUILDER&descAlignY=74&descSize=15&descColor=00FF41&stroke=00FF41&strokeWidth=1" width="100%"/>
+
+<!-- ═══════ 3D ABSTRACT CYBER CORE HERO LOGO ═══════ -->
+
+<br/>
+
+<img src="./assets/3d-cyber-core.svg" width="95%" alt="3D Cyber Core Logo" />
+
+<br/>
 
 <!-- ═══════ TERMINAL BADGE BANNER ═══════ -->
 
