@@ -462,4 +462,3 @@ $ ./deploy AIPracticeHub.ai --mode=production
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:001a00,60:003300,100:00FF41&height=120&section=footer&animation=twinkling" width="100%"/>
 
 </div>
-# Varun072006
