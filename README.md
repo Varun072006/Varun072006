@@ -137,15 +137,7 @@
 
 <div align="center">
 
-```
-⚡ WHAT I BUILD                             🎯 WHAT I'M UP TO NOW
-───────────────────────────                  ───────────────────────────
-🔮 GNN fraud detection engines               🔭 Training GNNs on temporal graphs
-🧠 LLM routing & agentic systems             🌱 Exploring multi-agent orchestration
-📖 Offline-first accessibility tools          💼 Seeking AI/ML & SWE internships
-🚄 Real-time hazard detection (DAS)           🤝 Open to collaborations on GenAI
-💻 Full-stack coding platforms                📫 Let's connect on LinkedIn!
-```
+<img src="./assets/dashboard-status.svg" width="95%" alt="What I Build & What I'm Up To Now" />
 
 </div>
 
