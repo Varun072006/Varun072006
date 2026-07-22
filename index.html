@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VARUN S — AI/ML Engineer & Neural Architect</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=JetBrains+Mono:wght@400;600;800&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- Three.js for 3D Quantum Arc Reactor -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <style>
+    :root {
+      --bg-dark: #05080e;
+      --panel-bg: rgba(9, 13, 22, 0.78);
+      --panel-border: rgba(0, 255, 65, 0.35);
+      --matrix-green: #00FF41;
+      --matrix-glow: #00FF66;
+      --matrix-dim: #004d1a;
+      --text-main: #e6edf3;
+      --text-muted: #8b949e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      overflow-x: hidden;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    /* Fixed Background 3D Canvas */
+    #webgl-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* Glassmorphism Overlay Container */
+    .portfolio-container {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 40px 20px 80px 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* General Alignments */
+    .text-center {
+      text-align: center;
+    }
+
+    .flex-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    /* Section Cards */
+    .glass-card {
+      background: var(--panel-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1.5px solid var(--panel-border);
+      border-radius: 14px;
+      padding: 25px;
+      margin-bottom: 35px;
+      box-shadow: 0 8px 32px 0 rgba(0, 255, 65, 0.08);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .glass-card:hover {
+      border-color: rgba(0, 255, 65, 0.7);
+      box-shadow: 0 10px 40px 0 rgba(0, 255, 65, 0.18);
+    }
+
+    /* Typography & Glows */
+    h1, h2, h3 {
+      font-family: 'Outfit', 'JetBrains Mono', sans-serif;
+    }
+
+    .neon-text {
+      color: var(--matrix-green);
+      text-shadow: 0 0 10px rgba(0, 255, 65, 0.6), 0 0 20px rgba(0, 255, 65, 0.3);
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--matrix-green);
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    /* Dividers */
+    .neon-divider {
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent 0%, var(--matrix-green) 50%, transparent 100%);
+      margin: 30px 0;
+      opacity: 0.7;
+    }
+
+    /* Top Header Image & SVG Component */
+    .header-banner-img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .badge-banner-img {
+      width: 85%;
+      margin: 10px auto;
+      display: block;
+    }
+
+    /* Typing Sequence Styling */
+    .typing-container {
+      margin: 20px 0;
+    }
+
+    /* Social Badges */
+    .social-badge {
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    .social-badge:hover {
+      transform: translateY(-3px);
+    }
+
+    /* Tech Stack Grid Table */
+    .tech-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    .tech-cell {
+      padding: 12px;
+      text-align: center;
+      background: rgba(13, 17, 23, 0.6);
+      border: 1px solid rgba(0, 255, 65, 0.2);
+      border-radius: 8px;
+    }
+
+    .tech-cell img {
+      width: 55px;
+      height: 55px;
+      transition: transform 0.3s ease;
+    }
+
+    .tech-cell:hover img {
+      transform: scale(1.15);
+    }
+
+    /* System Details Expandable */
+    details {
+      background: rgba(13, 17, 23, 0.85);
+      border: 1px solid rgba(0, 255, 65, 0.3);
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      cursor: pointer;
+    }
+
+    details summary {
+      font-weight: 700;
+      color: var(--matrix-green);
+      font-size: 1.1rem;
+      outline: none;
+    }
+
+    details code {
+      color: var(--text-main);
+      display: block;
+      padding: 15px;
+      background: #090d16;
+      border-radius: 8px;
+      margin-top: 12px;
+      white-space: pre-wrap;
+      font-size: 0.9rem;
+      border-left: 3px solid var(--matrix-green);
+    }
+
+    /* Battle Log Table */
+    .battle-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .battle-table th, .battle-table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid rgba(0, 255, 65, 0.2);
+    }
+
+    .battle-table th {
+      color: var(--matrix-green);
+      font-weight: 700;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- FIXED 3D QUANTUM ARC REACTOR CANVAS -->
+  <canvas id="webgl-bg"></canvas>
+
+  <div class="portfolio-container">
+
+    <!-- ═══════ HEADER SECTION ═══════ -->
+    <div class="text-center">
+      <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:00FF41&height=200&text=VARUN%20S&fontSize=85&fontColor=00FF41&animation=twinkling&fontAlignY=40&desc=⚡%20AI%20ENGINEER%20%20•%20%20NEURAL%20ARCHITECT%20%20•%20%20SYSTEM%20BUILDER&descAlignY=74&descSize=15&descColor=00FF41&stroke=00FF41&strokeWidth=1" class="header-banner-img" alt="VARUN S Header" />
+
+      <img src="./assets/banner-badge.svg" class="badge-banner-img" alt="AI Engineer Terminal Badge" />
+
+      <div class="typing-container">
+        <a href="https://git.io/typing-svg">
+          <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=850&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
+        </a>
+        <br/>
+        <a href="https://git.io/typing-svg">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2500&pause=800&color=00FF41&background=0D1117&center=true&vCenter=true&width=850&height=50&lines=%F0%9F%94%AE+6+Production+AI+Systems+Deployed+%7C+GNN+%C2%B7+CV+%C2%B7+LLM+%C2%B7+RAG+%C2%B7+Agentic+AI;%F0%9F%8E%AF+CSE+%40+Bannari+Amman+Institute+of+Technology+%7C+Class+of+2028;%F0%9F%9A%80+Seeking+AI%2FML+%26+Software+Engineering+Internships;%F0%9F%92%BB+Building+intelligent+systems+that+solve+real-world+problems;%F0%9F%A7%A0+From+Graph+Neural+Networks+to+Full-Stack+AI+Platforms" alt="Typing SVG" />
+        </a>
+      </div>
+
+      <div class="flex-center" style="margin-top: 20px;">
+        <a href="https://linkedin.com/in/varun-s-41bb95357" class="social-badge">
+          <img src="https://img.shields.io/badge/-%E2%9A%A1_LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn"/>
+        </a>
+        <a href="https://github.com/Varun072006" class="social-badge">
+          <img src="https://img.shields.io/badge/-%F0%9F%94%AE_GITHUB-000000?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub"/>
+        </a>
+        <a href="https://leetcode.com/u/wYbMiQ6gOX" class="social-badge">
+          <img src="https://img.shields.io/badge/-%F0%9F%92%80_LEETCODE-000000?style=for-the-badge&logo=leetcode&logoColor=00FF41" alt="LeetCode"/>
+        </a>
+        <a href="https://github.com/Varun072006" class="social-badge">
+          <img src="https://komarev.com/ghpvc/?username=Varun072006&style=for-the-badge&color=00FF41&labelColor=000000&label=%F0%9F%91%81%EF%B8%8F+PROFILE+VIEWS" alt="Profile Views"/>
+        </a>
+      </div>
+    </div>
+
+    <div class="neon-divider"></div>
+
+    <!-- ═══════ TECH STACK SECTION ═══════ -->
+    <div class="glass-card text-center">
+      <div class="section-title">
+        <span>⚡</span> <code>MODULE::TECH_STACK</code> <span>⚡</span>
+      </div>
+
+      <table class="tech-table">
+        <tr>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python"/><br><sub><b>Python</b></sub></td>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java"/><br><sub><b>Java</b></sub></td>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript"/><br><sub><b>TypeScript</b></sub></td>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript"/><br><sub><b>JavaScript</b></sub></td>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++"/><br><sub><b>C++</b></sub></td>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL"/><br><sub><b>MySQL</b></sub></td>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker"/><br><sub><b>Docker</b></sub></td>
+          <td class="tech-cell"><img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes"/><br><sub><b>Kubernetes</b></sub></td>
+        </tr>
+      </table>
+
+      <div style="margin-top: 25px;">
+        <h4 style="color: var(--matrix-green); margin-bottom: 10px;">🧠 AI / ML / Deep Learning</h4>
+        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" style="margin-bottom: 8px;"/>
+        <br/>
+        <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" />
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=fff" />
+        <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=fff" />
+        <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=fff" />
+        <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=fff" />
+      </div>
+    </div>
+
+    <!-- ═══════ DASHBOARD STATUS ANIMATED COMPONENT ═══════ -->
+    <div class="text-center" style="margin-bottom: 35px;">
+      <img src="./assets/dashboard-status.svg" style="width: 100%; max-width: 880px;" alt="What I Build & What I'm Up To Now" />
+    </div>
+
+    <div class="neon-divider"></div>
+
+    <!-- ═══════ DEPLOYED NEURAL SYSTEMS ═══════ -->
+    <div class="glass-card">
+      <div class="section-title text-center">
+        <span>🔮</span> <code>MODULE::DEPLOYED_SYSTEMS</code> <span>🔮</span>
+      </div>
+
+      <details open>
+        <summary><b>🔮 MuleNet.ai — Graph Neural Network Fraud Detection Engine</b></summary>
+        <code>
+$ ./deploy MuleNet.ai --mode=production
+══════════════════════════════════════════════════════════════
+ 🔮 SYSTEM    Graph Neural Network Fraud Detection Engine
+ ⚙️  STACK     PyTorch Geometric · DGL · Fast-API · Docker · Redis
+══════════════════════════════════════════════════════════════
+ ▸ Temporal GNN pipeline analyzing 50,000+ daily transaction nodes
+ ▸ Heterogeneous graph embeddings for anomaly detection
+ ▸ Sub-50ms real-time inference latency
+ [████████████████████████████████████████] STATUS: DEPLOYED ✅
+        </code>
+      </details>
+
+      <details>
+        <summary><b>🎓 LearnQuest.ai — AI Learning & Secure Assessment Platform</b></summary>
+        <code>
+$ ./deploy LearnQuest.ai --mode=production
+══════════════════════════════════════════════════════════════
+ 🎓 SYSTEM    AI Learning & Secure Assessment Platform
+ ⚙️  STACK     React · Node.js · Express · MySQL · YOLOv5 · MediaPipe
+══════════════════════════════════════════════════════════════
+ ▸ Serves 100+ concurrent users, JWT auth + RBAC
+ ▸ AI proctoring: face detection, gaze tracking, phone detection
+ ▸ Detection Accuracy: 94% | Latency: <200ms
+ [████████████████████████████████████████] STATUS: DEPLOYED ✅
+        </code>
+      </details>
+
+      <details>
+        <summary><b>🚄 SonicRail.ai — AI-Powered Railway Hazard Detection</b></summary>
+        <code>
+$ ./deploy SonicRail.ai --mode=production
+══════════════════════════════════════════════════════════════
+ 🚄 SYSTEM    AI-Powered Railway Hazard Detection (DAS)
+ ⚙️  STACK     Python · Flask · React · TensorFlow · CNN-BiLSTM · Docker
+══════════════════════════════════════════════════════════════
+ ▸ F1-Score: 0.89 | Real-Time Inference: <2s | 54 ⭐ Stars
+ [████████████████████████████████████████] STATUS: DEPLOYED ✅
+        </code>
+      </details>
+    </div>
+
+    <!-- ═══════ COMPETITION BATTLE LOG ═══════ -->
+    <div class="glass-card">
+      <div class="section-title text-center">
+        <span>🏆</span> <code>MODULE::BATTLE_LOG</code> <span>🏆</span>
+      </div>
+      <table class="battle-table">
+        <thead>
+          <tr>
+            <th>Competition</th>
+            <th>Domain</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><b>Intellitrace 2026</b></td><td>🏦 AI-driven solutions for fintech & banking</td></tr>
+          <tr><td><b>ANZ Diversity Hackathon</b></td><td>🌏 National innovation challenge, ANZ</td></tr>
+          <tr><td><b>AI for Bharat</b></td><td>📚 AI-powered educational accessibility</td></tr>
+          <tr><td><b>AMD Slingshot</b></td><td>⚡ AI + HPC innovation challenge</td></tr>
+          <tr><td><b>Yuvaan by AVEVA</b></td><td>🏭 Industrial AI & digital transformation</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ═══════ LIVE TELEMETRY STATS ═══════ -->
+    <div class="glass-card text-center">
+      <div class="section-title">
+        <span>📡</span> <code>MODULE::LIVE_TELEMETRY</code> <span>📡</span>
+      </div>
+
+      <div class="flex-center" style="margin-bottom: 25px;">
+        <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Varun072006&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&border_color=003300&ring_color=00FF41&include_all_commits=true&count_private=true" />
+        <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Varun072006&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9&border_color=003300&langs_count=8" />
+      </div>
+
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Varun072006&hide_border=true&background=0D1117&ring=00FF41&fire=FF6600&currStreakLabel=00FF41&sideLabels=00FF41&currStreakNum=00FF41&sideNums=00FF41&dates=555555&stroke=003300" style="width: 65%; max-width: 600px; margin-bottom: 25px;" />
+      <br/>
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Varun072006&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=003300&hide_border=true&custom_title=📈%20Contribution%20Activity%20Graph" style="width: 90%; max-width: 800px;" />
+    </div>
+
+    <!-- ═══════ 3D CORE & SNAKE DATASTREAM ═══════ -->
+    <div class="glass-card text-center">
+      <div class="section-title">
+        <span>🌐</span> <code>MODULE::3D_CORE_RENDER</code> <span>🌐</span>
+      </div>
+      <img src="./profile-3d-contrib/profile-night-green.svg" style="width: 90%; max-width: 750px;" alt="3D Contribution Graph" />
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">🔄 Isometric render — auto-regenerated nightly via GitHub Actions</p>
+    </div>
+
+    <!-- ═══════ TROPHY CASE ═══════ -->
+    <div class="glass-card text-center">
+      <div class="section-title">
+        <span>🏅</span> <code>MODULE::TROPHY_CASE</code> <span>🏅</span>
+      </div>
+      <img src="https://github-profile-trophy-zeta.vercel.app/?username=Varun072006&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=10" style="width: 90%; max-width: 800px;" />
+    </div>
+
+    <!-- ═══════ FOOTER SYSTEM STATUS ═══════ -->
+    <footer class="text-center">
+      <img src="./assets/system-status.svg" style="width: 85%; max-width: 750px; margin-bottom: 25px;" alt="System Status Banner" />
+      <br/>
+      <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,30:001a00,60:003300,100:00FF41&height=120&section=footer&animation=twinkling" style="width: 100%;" />
+    </footer>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- ░░░░░░░░░  THREE.JS 3D CINEMATIC AI QUANTUM ARC REACTOR SCRIPT  ░░░░░░░ -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <script>
+    (function init3DReactor() {
+      const canvas = document.getElementById('webgl-bg');
+      const renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.setSize(window.innerWidth, window.innerHeight);
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+      camera.position.set(0, 0, 18);
+
+      // Group holding the entire Arc Reactor assembly
+      const reactorGroup = new THREE.Group();
+      scene.add(reactorGroup);
+
+      // Move reactor slightly upper center background
+      reactorGroup.position.set(0, 1.5, -2);
+
+      // --- 1. CENTRAL PLASMA CORE (Glowing Fusion Core) ---
+      const coreGeo = new THREE.IcosahedronGeometry(1.8, 4);
+      const coreMat = new THREE.MeshBasicMaterial({
+        color: 0x00FF41,
+        wireframe: true,
+        transparent: true,
+        opacity: 0.85
+      });
+      const coreMesh = new THREE.Mesh(coreGeo, coreMat);
+      reactorGroup.add(coreMesh);
+
+      // Inner Solid Plasma Sphere
+      const innerGeo = new THREE.SphereGeometry(1.2, 32, 32);
+      const innerMat = new THREE.MeshBasicMaterial({
+        color: 0x39FF14,
+        transparent: true,
+        opacity: 0.95
+      });
+      const innerMesh = new THREE.Mesh(innerGeo, innerMat);
+      reactorGroup.add(innerMesh);
+
+      // --- 2. MAGNETIC CONCENTRIC RINGS (Futuristic Arc Coil Segments) ---
+      const rings = [];
+
+      function createQuantumRing(radius, tube, color, rotX, rotY) {
+        const ringGeo = new THREE.TorusGeometry(radius, tube, 16, 100);
+        const ringMat = new THREE.MeshBasicMaterial({
+          color: color,
+          wireframe: true,
+          transparent: true,
+          opacity: 0.75
+        });
+        const ringMesh = new THREE.Mesh(ringGeo, ringMat);
+        ringMesh.rotation.x = rotX;
+        ringMesh.rotation.y = rotY;
+        reactorGroup.add(ringMesh);
+        rings.push(ringMesh);
+        return ringMesh;
+      }
+
+      // 4 Concentric Interlocking Magnetic Rings
+      createQuantumRing(3.2, 0.08, 0x00FF41, Math.PI / 3, Math.PI / 6);
+      createQuantumRing(4.5, 0.06, 0x00E5FF, Math.PI / 4, Math.PI / 3);
+      createQuantumRing(5.8, 0.05, 0x39FF14, Math.PI / 2, Math.PI / 8);
+      createQuantumRing(7.2, 0.04, 0x00FF66, Math.PI / 6, Math.PI / 4);
+
+      // --- 3. OUTER GEODESIC SHIELD (Quantum Field Cage) ---
+      const cageGeo = new THREE.DodecahedronGeometry(8.5, 1);
+      const cageMat = new THREE.MeshBasicMaterial({
+        color: 0x00FF41,
+        wireframe: true,
+        transparent: true,
+        opacity: 0.15
+      });
+      const cageMesh = new THREE.Mesh(cageGeo, cageMat);
+      reactorGroup.add(cageMesh);
+
+      // --- 4. SWIRLING QUANTUM PLASMA PARTICLE STREAM ---
+      const particleCount = 1800;
+      const particleGeo = new THREE.BufferGeometry();
+      const positions = new Float32Array(particleCount * 3);
+      const colors = new Float32Array(particleCount * 3);
+
+      const colorGreen = new THREE.Color(0x00FF41);
+      const colorCyan = new THREE.Color(0x00E5FF);
+
+      for (let i = 0; i < particleCount; i++) {
+        const radius = 2.0 + Math.random() * 7.5;
+        const theta = Math.random() * Math.PI * 2;
+        const phi = Math.acos((Math.random() * 2) - 1);
+
+        positions[i * 3] = radius * Math.sin(phi) * Math.cos(theta);
+        positions[i * 3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
+        positions[i * 3 + 2] = radius * Math.cos(phi);
+
+        const mixColor = Math.random() > 0.3 ? colorGreen : colorCyan;
+        colors[i * 3] = mixColor.r;
+        colors[i * 3 + 1] = mixColor.g;
+        colors[i * 3 + 2] = mixColor.b;
+      }
+
+      particleGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+      particleGeo.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+      const particleMat = new THREE.PointsMaterial({
+        size: 0.08,
+        vertexColors: true,
+        transparent: true,
+        opacity: 0.85
+      });
+
+      const particleSystem = new THREE.Points(particleGeo, particleMat);
+      reactorGroup.add(particleSystem);
+
+      // --- 5. ANIMATION LOOP & RESPONSIVENESS ---
+      let clock = new THREE.Clock();
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        const elapsedTime = clock.getElapsedTime();
+
+        // Pulsing Core Scaling (Heartbeat effect)
+        const pulse = 1.0 + Math.sin(elapsedTime * 3) * 0.08;
+        innerMesh.scale.set(pulse, pulse, pulse);
+        coreMesh.rotation.y += 0.01;
+        coreMesh.rotation.x += 0.005;
+
+        // Rotate Concentric Magnetic Rings in Alternating Axes
+        rings.forEach((ring, idx) => {
+          const speed = (idx + 1) * 0.004;
+          ring.rotation.z += speed;
+          ring.rotation.x += speed * 0.5;
+        });
+
+        // Rotate Outer Shield & Swirling Plasma Vortex
+        cageMesh.rotation.y -= 0.002;
+        cageMesh.rotation.x -= 0.001;
+        particleSystem.rotation.y += 0.003;
+
+        renderer.render(scene, camera);
+      }
+
+      animate();
+
+      // Window Resize Listener
+      window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+    })();
+  </script>
+</body>
+</html>
