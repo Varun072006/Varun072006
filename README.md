@@ -4,9 +4,7 @@
 <!-- ░░░░░░░░░░░░░  ANIMATED WAVING HEADER WITH 3D DEPTH  ░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:00FF41&height=300&text=VARUN%20S&fontSize=90&fontColor=00FF41&animation=twinkling&fontAlignY=35&desc=⚡%20AI%20ENGINEER%20%20•%20%20NEURAL%20ARCHITECT%20%20•%20%20SYSTEM%20BUILDER&descAlignY=62&descSize=16&descColor=00FF41&stroke=00FF41&strokeWidth=1" width="100%"/>
-
-<br/><br/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:00FF41&height=200&text=VARUN%20S&fontSize=85&fontColor=00FF41&animation=twinkling&fontAlignY=40&desc=⚡%20AI%20ENGINEER%20%20•%20%20NEURAL%20ARCHITECT%20%20•%20%20SYSTEM%20BUILDER&descAlignY=74&descSize=15&descColor=00FF41&stroke=00FF41&strokeWidth=1" width="100%"/>
 
 <!-- ═══════ TERMINAL BADGE BANNER ═══════ -->
 
@@ -14,7 +12,7 @@
 
 <!-- ═══════ ANIMATED TYPING TERMINAL SEQUENCE ═══════ -->
 
-<br/><br/>
+<br/>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=850&height=50&lines=Welcome+to+my+creative+workspace!+%F0%9F%9A%80;Building+Intelligent+AI%2FML+Systems+%E2%9A%A1;Architecting+Robust+Full-Stack+Solutions+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" /></a>
 
