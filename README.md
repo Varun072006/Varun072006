@@ -10,6 +10,12 @@
 
 <img src="./assets/banner-badge.svg" width="95%" alt="AI Engineer Banner" />
 
+<br/>
+
+<!-- ═══════ 3D AI QUANTUM FUSION CORE ═══════ -->
+
+<img src="./assets/quantum-core.svg" width="95%" alt="3D AI Quantum Fusion Core" />
+
 
 <!-- ═══════ ANIMATED TYPING TERMINAL SEQUENCE ═══════ -->
 

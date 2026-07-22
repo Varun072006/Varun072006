@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VARUN S | AI Engineer & Neural Architect — Quantum Core Portfolio</title>
+  <meta name="description" content="Personal AI/ML Engineer & Systems Architect Portfolio with 3D Quantum Core background. Building GNNs, LLMs, Computer Vision & Agentic AI.">
+  
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;0,800;1,400&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Three.js library from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <style>
+    :root {
+      --bg-dark: #05080f;
+      --panel-bg: rgba(9, 13, 22, 0.75);
+      --panel-border: rgba(0, 255, 65, 0.3);
+      --matrix-green: #00FF41;
+      --matrix-glow: #00FF66;
+      --cyan-accent: #00E5FF;
+      --pink-accent: #FF3366;
+      --text-main: #e6edf3;
+      --text-muted: #8b949e;
+      --font-mono: 'JetBrains Mono', monospace;
+      --font-sans: 'Outfit', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Fixed 3D Canvas Background */
+    #canvas-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* Scrollable Layout Overlay */
+    .app-container {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem 1.5rem;
+    }
+
+    /* Glassmorphic Panel Component */
+    .glass-card {
+      background: var(--panel-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--panel-border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(0, 255, 65, 0.05);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .glass-card:hover {
+      border-color: rgba(0, 255, 65, 0.6);
+      box-shadow: 0 12px 40px 0 rgba(0, 255, 65, 0.15), inset 0 0 20px rgba(0, 255, 65, 0.08);
+    }
+
+    /* Header & Hero Section */
+    .hero-header {
+      text-align: center;
+      padding: 3rem 1.5rem 2rem 1.5rem;
+    }
+
+    .hero-title {
+      font-size: 3.8rem;
+      font-weight: 900;
+      letter-spacing: 6px;
+      color: var(--matrix-green);
+      text-shadow: 0 0 20px rgba(0, 255, 65, 0.6), 0 0 40px rgba(0, 255, 65, 0.3);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .hero-subtitle {
+      font-family: var(--font-mono);
+      font-size: 1.1rem;
+      color: var(--matrix-glow);
+      letter-spacing: 3px;
+      margin-bottom: 1.5rem;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 255, 65, 0.1);
+      border: 1px solid var(--matrix-green);
+      color: var(--matrix-green);
+      padding: 6px 16px;
+      border-radius: 30px;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background-color: var(--matrix-green);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--matrix-green);
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.4); opacity: 1; }
+    }
+
+    /* Navigation / Quick Links */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .btn-social {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(13, 17, 23, 0.8);
+      border: 1px solid rgba(0, 255, 65, 0.4);
+      color: var(--matrix-green);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn-social:hover {
+      background: var(--matrix-green);
+      color: #000;
+      box-shadow: 0 0 20px var(--matrix-green);
+      transform: translateY(-2px);
+    }
+
+    /* Section Titles */
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-mono);
+      font-size: 1.4rem;
+      color: var(--matrix-green);
+      border-bottom: 1px stroke rgba(0, 255, 65, 0.3);
+      padding-bottom: 0.8rem;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .section-title i {
+      color: var(--matrix-glow);
+    }
+
+    /* Grid Layouts */
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+    }
+
+    .tech-item {
+      background: rgba(13, 17, 23, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .tech-item:hover {
+      border-color: var(--matrix-green);
+      background: rgba(0, 255, 65, 0.05);
+      transform: translateY(-4px);
+    }
+
+    .tech-item i {
+      font-size: 2.2rem;
+      color: var(--matrix-green);
+      margin-bottom: 0.5rem;
+    }
+
+    .tech-item img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 0.5rem;
+    }
+
+    .tech-name {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    /* Project Cards */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: rgba(13, 17, 23, 0.7);
+      border: 1px solid rgba(0, 255, 65, 0.25);
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .project-card:hover {
+      border-color: var(--matrix-green);
+      box-shadow: 0 0 25px rgba(0, 255, 65, 0.2);
+      transform: translateY(-4px);
+    }
+
+    .project-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--matrix-green);
+      margin-bottom: 0.5rem;
+    }
+
+    .project-desc {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 1rem;
+    }
+
+    .tag {
+      background: rgba(0, 255, 65, 0.1);
+      color: var(--matrix-green);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 4px;
+      border: 1px solid rgba(0, 255, 65, 0.3);
+    }
+
+    /* Hackathons Table */
+    .battle-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+    }
+
+    .battle-table th, .battle-table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .battle-table th {
+      color: var(--matrix-green);
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+
+    .battle-table tr:hover td {
+      background: rgba(0, 255, 65, 0.05);
+      color: var(--matrix-glow);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 3D Canvas Background -->
+  <div id="canvas-container"></div>
+
+  <!-- Main Content Overlay -->
+  <div class="app-container">
+
+    <!-- HERO HEADER -->
+    <header class="hero-header glass-card">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        QUANTUM CORE ONLINE & OPERATIONAL
+      </div>
+      <h1 class="hero-title">VARUN S</h1>
+      <p class="hero-subtitle">⚡ AI ENGINEER • NEURAL ARCHITECT • SYSTEM BUILDER</p>
+
+      <div class="social-links">
+        <a href="https://linkedin.com/in/varun-s-41bb95357" target="_blank" class="btn-social">
+          <i class="fab fa-linkedin"></i> LINKEDIN
+        </a>
+        <a href="https://github.com/Varun072006" target="_blank" class="btn-social">
+          <i class="fab fa-github"></i> GITHUB
+        </a>
+        <a href="https://leetcode.com/u/wYbMiQ6gOX" target="_blank" class="btn-social">
+          <i class="fas fa-code"></i> LEETCODE
+        </a>
+      </div>
+    </header>
+
+    <!-- LIVE TELEMETRY / STATUS BADGE -->
+    <div class="glass-card" style="text-align: center;">
+      <img src="./assets/banner-badge.svg" style="width: 100%; max-width: 800px; height: auto;" alt="AI Engineer Banner">
+    </div>
+
+    <!-- WHAT I BUILD & UP TO NOW -->
+    <div class="glass-card" style="text-align: center;">
+      <img src="./assets/dashboard-status.svg" style="width: 100%; max-width: 880px; height: auto;" alt="Dashboard Status">
+    </div>
+
+    <!-- TECH STACK -->
+    <section class="glass-card">
+      <h2 class="section-title"><i class="fas fa-microchip"></i> MODULE::TECH_STACK</h2>
+      <div class="tech-grid">
+        <div class="tech-item"><i class="fab fa-python"></i><div class="tech-name">Python</div></div>
+        <div class="tech-item"><i class="fab fa-java"></i><div class="tech-name">Java</div></div>
+        <div class="tech-item"><i class="fab fa-js"></i><div class="tech-name">TypeScript</div></div>
+        <div class="tech-item"><i class="fab fa-docker"></i><div class="tech-name">Docker</div></div>
+        <div class="tech-item"><i class="fas fa-brain"></i><div class="tech-name">PyTorch</div></div>
+        <div class="tech-item"><i class="fas fa-network-wired"></i><div class="tech-name">PyG (GNN)</div></div>
+        <div class="tech-item"><i class="fas fa-robot"></i><div class="tech-name">LangChain</div></div>
+        <div class="tech-item"><i class="fas fa-database"></i><div class="tech-name">ChromaDB</div></div>
+      </div>
+    </section>
+
+    <!-- DEPLOYED SYSTEMS -->
+    <section class="glass-card">
+      <h2 class="section-title"><i class="fas fa-server"></i> MODULE::DEPLOYED_SYSTEMS</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div>
+            <h3 class="project-title">🔮 MuleNet.ai</h3>
+            <p class="project-desc">Graph Neural Network engine for real-time financial transaction fraud detection on temporal graphs.</p>
+          </div>
+          <div class="project-tags">
+            <span class="tag">PyTorch Geometric</span>
+            <span class="tag">GNN</span>
+            <span class="tag">FastAPI</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <h3 class="project-title">🎓 LearnQuest.ai</h3>
+            <p class="project-desc">AI learning &amp; secure assessment platform serving 100+ users with real-time gaze &amp; face proctoring.</p>
+          </div>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">YOLOv5</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <h3 class="project-title">🚄 SonicRail.ai</h3>
+            <p class="project-desc">AI-powered railway hazard detection analyzing DAS time-series data with CNN-BiLSTM models.</p>
+          </div>
+          <div class="project-tags">
+            <span class="tag">TensorFlow</span>
+            <span class="tag">CNN-BiLSTM</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <h3 class="project-title">📖 Cognitive Reading Companion</h3>
+            <p class="project-desc">Offline-first accessibility platform for dyslexia/ADHD with 100% local Llama 3 &amp; PaddleOCR inference.</p>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Llama 3</span>
+            <span class="tag">FastAPI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HACKATHONS LOG -->
+    <section class="glass-card">
+      <h2 class="section-title"><i class="fas fa-trophy"></i> MODULE::BATTLE_LOG</h2>
+      <table class="battle-table">
+        <thead>
+          <tr>
+            <th>Competition</th>
+            <th>Domain / Achievement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Intellitrace 2026</strong></td>
+            <td>🏦 AI-driven solutions for fintech &amp; banking</td>
+          </tr>
+          <tr>
+            <td><strong>ANZ Diversity Hackathon</strong></td>
+            <td>🌏 National innovation challenge, ANZ</td>
+          </tr>
+          <tr>
+            <td><strong>AI for Bharat</strong></td>
+            <td>📚 AI-powered educational accessibility</td>
+          </tr>
+          <tr>
+            <td><strong>AMD Slingshot</strong></td>
+            <td>⚡ AI + HPC innovation challenge</td>
+          </tr>
+          <tr>
+            <td><strong>Yuvaan by AVEVA</strong></td>
+            <td>🏭 Industrial AI &amp; digital transformation</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SYSTEM STATUS FOOTER -->
+    <div class="glass-card" style="text-align: center;">
+      <img src="./assets/system-status.svg" style="width: 100%; max-width: 750px; height: auto;" alt="System Status">
+    </div>
+
+    <footer>
+      <p>⚡ VARUN S — ARCHITECTING INTELLIGENT AI SYSTEMS THAT SCALE</p>
+      <p style="margin-top: 5px; opacity: 0.6;">Powered by WebGL 3D Quantum Fusion Core (Three.js)</p>
+    </footer>
+
+  </div>
+
+  <!-- THREE.JS 3D QUANTUM FUSION CORE SCRIPT -->
+  <script>
+    (function initQuantumCore() {
+      const container = document.getElementById('canvas-container');
+
+      // 1. Scene, Camera, Renderer
+      const scene = new THREE.Scene();
+      scene.fog = new THREE.FogExp2(0x05080f, 0.012);
+
+      const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+      camera.position.set(0, 0, 35);
+
+      const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.toneMapping = THREE.ACESFilmicToneMapping;
+      renderer.toneMappingExposure = 1.2;
+      container.appendChild(renderer.domElement);
+
+      // 2. Quantum Reactor Group
+      const reactorGroup = new THREE.Group();
+      scene.add(reactorGroup);
+
+      // --- A. INNER PLASMA CORE (Glow Sphere) ---
+      const coreGeo = new THREE.IcosahedronGeometry(4, 4);
+      const coreMat = new THREE.MeshStandardMaterial({
+        color: 0x00FF41,
+        emissive: 0x00FF41,
+        emissiveIntensity: 1.5,
+        wireframe: true,
+        transparent: true,
+        opacity: 0.85
+      });
+      const coreMesh = new THREE.Mesh(coreGeo, coreMat);
+      reactorGroup.add(coreMesh);
+
+      // Inner Solid Core Light Node
+      const innerCoreGeo = new THREE.SphereGeometry(2.5, 32, 32);
+      const innerCoreMat = new THREE.MeshBasicMaterial({
+        color: 0x39FF14,
+        transparent: true,
+        opacity: 0.95
+      });
+      const innerCore = new THREE.Mesh(innerCoreGeo, innerCoreMat);
+      reactorGroup.add(innerCore);
+
+      // --- B. CONCENTRIC GYROSCOPIC FUSION RINGS ---
+      const createFusionRing = (radius, tubeRadius, radialSegments, colorHex, rotX, rotY) => {
+        const ringGeo = new THREE.TorusGeometry(radius, tubeRadius, 16, radialSegments);
+        const ringMat = new THREE.MeshStandardMaterial({
+          color: colorHex,
+          emissive: colorHex,
+          emissiveIntensity: 0.6,
+          metalness: 0.8,
+          roughness: 0.2,
+          wireframe: false
+        });
+        const ringMesh = new THREE.Mesh(ringGeo, ringMat);
+        ringMesh.rotation.x = rotX;
+        ringMesh.rotation.y = rotY;
+        return ringMesh;
+      };
+
+      // Ring 1 (Inner Energy Conduits)
+      const ring1 = createFusionRing(6.5, 0.25, 40, 0x00FF41, Math.PI / 4, 0);
+      reactorGroup.add(ring1);
+
+      // Ring 2 (Middle Primary Reactor Segmented)
+      const ring2 = createFusionRing(9.5, 0.35, 60, 0x00FF66, -Math.PI / 3, Math.PI / 6);
+      reactorGroup.add(ring2);
+
+      // Ring 3 (Outer Magnetic Containment Field)
+      const ring3 = createFusionRing(13, 0.4, 80, 0x00E5FF, Math.PI / 6, -Math.PI / 4);
+      reactorGroup.add(ring3);
+
+      // Ring 4 (Plasma Shield Orbit)
+      const ring4 = createFusionRing(16.5, 0.2, 100, 0x00FF41, 0, Math.PI / 2);
+      reactorGroup.add(ring4);
+
+      // --- C. QUANTUM PARTICLE SWARM ---
+      const particleCount = 1800;
+      const particleGeo = new THREE.BufferGeometry();
+      const particlePositions = new Float32Array(particleCount * 3);
+      const particleColors = new Float32Array(particleCount * 3);
+
+      const colorGreen = new THREE.Color(0x00FF41);
+      const colorCyan = new THREE.Color(0x00E5FF);
+
+      for (let i = 0; i < particleCount; i++) {
+        const r = 8 + Math.random() * 25;
+        const theta = Math.random() * Math.PI * 2;
+        const phi = Math.acos((Math.random() * 2) - 1);
+
+        particlePositions[i * 3] = r * Math.sin(phi) * Math.cos(theta);
+        particlePositions[i * 3 + 1] = r * Math.sin(phi) * Math.sin(theta);
+        particlePositions[i * 3 + 2] = r * Math.cos(phi);
+
+        const mixRatio = Math.random();
+        const pColor = colorGreen.clone().lerp(colorCyan, mixRatio);
+        particleColors[i * 3] = pColor.r;
+        particleColors[i * 3 + 1] = pColor.g;
+        particleColors[i * 3 + 2] = pColor.b;
+      }
+
+      particleGeo.setAttribute('position', new THREE.BufferAttribute(particlePositions, 3));
+      particleGeo.setAttribute('color', new THREE.BufferAttribute(particleColors, 3));
+
+      const particleMat = new THREE.PointsMaterial({
+        size: 0.35,
+        vertexColors: true,
+        transparent: true,
+        opacity: 0.85,
+        blending: THREE.AdditiveBlending
+      });
+
+      const particleSystem = new THREE.Points(particleGeo, particleMat);
+      reactorGroup.add(particleSystem);
+
+      // --- D. ILLUMINATION & LIGHTS ---
+      const corePointLight = new THREE.PointLight(0x00FF41, 3, 50);
+      corePointLight.position.set(0, 0, 0);
+      scene.add(corePointLight);
+
+      const cyanLight = new THREE.PointLight(0x00E5FF, 2, 60);
+      cyanLight.position.set(20, 20, 20);
+      scene.add(cyanLight);
+
+      const ambientLight = new THREE.AmbientLight(0x0a1526, 1.5);
+      scene.add(ambientLight);
+
+      // 3. Mouse Interaction & Tilt
+      let mouseX = 0;
+      let mouseY = 0;
+      let targetX = 0;
+      let targetY = 0;
+
+      window.addEventListener('mousemove', (e) => {
+        mouseX = (e.clientX - window.innerWidth / 2) * 0.0005;
+        mouseY = (e.clientY - window.innerHeight / 2) * 0.0005;
+      });
+
+      // 4. Window Resize Handler
+      window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+
+      // 5. Animation Loop
+      let clock = new THREE.Clock();
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        const elapsedTime = clock.getElapsedTime();
+
+        // Core Pulsing
+        const pulseScale = 1 + Math.sin(elapsedTime * 3) * 0.08;
+        coreMesh.scale.set(pulseScale, pulseScale, pulseScale);
+        coreMat.emissiveIntensity = 1.2 + Math.sin(elapsedTime * 4) * 0.5;
+
+        // Gyroscopic Ring Rotations
+        ring1.rotation.z += 0.012;
+        ring1.rotation.x += 0.008;
+
+        ring2.rotation.y -= 0.009;
+        ring2.rotation.z += 0.006;
+
+        ring3.rotation.x += 0.007;
+        ring3.rotation.y += 0.01;
+
+        ring4.rotation.z -= 0.005;
+
+        // Particle Swarm Rotation
+        particleSystem.rotation.y = elapsedTime * 0.05;
+        particleSystem.rotation.x = Math.sin(elapsedTime * 0.03) * 0.2;
+
+        // Smooth Mouse Parallax
+        targetX += (mouseX - targetX) * 0.05;
+        targetY += (mouseY - targetY) * 0.05;
+        reactorGroup.rotation.y = targetX * 2 + elapsedTime * 0.03;
+        reactorGroup.rotation.x = targetY * 2;
+
+        renderer.render(scene, camera);
+      }
+
+      animate();
+    })();
+  </script>
+</body>
+</html>
