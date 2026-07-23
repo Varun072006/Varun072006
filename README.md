@@ -4,6 +4,10 @@
 <!-- ░░░░░░░░░░░░░  ANIMATED WAVING HEADER WITH 3D DEPTH  ░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
+<img src="./assets/name-banner.svg" width="100%" alt="VARUN S - AI Engineer Header Banner" />
+
+<br/>
+
 <!-- ═══════ TERMINAL BADGE BANNER ═══════ -->
 
 <img src="./assets/banner-badge.svg" width="95%" alt="AI Engineer Banner" />
