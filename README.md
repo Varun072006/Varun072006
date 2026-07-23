@@ -4,17 +4,9 @@
 <!-- ░░░░░░░░░░░░░  ANIMATED WAVING HEADER WITH 3D DEPTH  ░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/quantum-core-header.svg" width="100%" alt="Varun S - AI Quantum Core Header" />
-
 <!-- ═══════ TERMINAL BADGE BANNER ═══════ -->
 
 <img src="./assets/banner-badge.svg" width="95%" alt="AI Engineer Banner" />
-
-<br/>
-
-<a href="https://varun072006.github.io/Varun072006/">
-  <img src="https://img.shields.io/badge/🌐_EXPLORE_LIVE_3D_PORTFOLIO-QUANTUM_ARC_REACTOR_v2050-000000?style=for-the-badge&logo=three.js&logoColor=00FF41" alt="Explore Live 3D Portfolio" />
-</a>
 
 
 <!-- ═══════ ANIMATED TYPING TERMINAL SEQUENCE ═══════ -->
