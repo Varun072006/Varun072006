@@ -16,7 +16,7 @@
 
 ## General Description
 
-The **VARUN S** is a AI and machine-learning engineer built to turn research-grade ideas into systems people actually use. It covers the whole path from model to product: graph neural networks, computer vision and LLM pipelines on one side, APIs, databases and deployment on the other.
+**Mr. VARUN S** is a AI and machine-learning engineer built to turn research-grade ideas into systems people actually use. It covers the whole path from model to product: graph neural networks, computer vision and LLM pipelines on one side, APIs, databases and deployment on the other.
 
 Computer Science student at **Bannari Amman Institute of Technology** (class of 2028). Six AI systems shipped. Available for **AI/ML and software engineering internships**.
 
@@ -80,13 +80,13 @@ Source for everything lives at **[github.com/Varun072006](https://github.com/Var
 
 ## Recognition & Qualification
 
-| Competitions entered | Certifications |
-|:---|:---|
-| Intellitrace 2026 (fintech & banking AI) | Cisco · Python Essentials 1 |
-| ANZ Diversity Hackathon | HP LIFE · Python for Data Science |
+| Competitions entered                      | Certifications                              |
+| :---------------------------------------- | :------------------------------------------ |
+| Intellitrace 2026 (fintech & banking AI)  | Cisco · Python Essentials 1                 |
+| ANZ Diversity Hackathon                   | HP LIFE · Python for Data Science           |
 | AI for Bharat (educational accessibility) | Simplilearn · Machine Learning Using Python |
-| AMD Slingshot (AI + HPC) | Microsoft Azure Fundamentals |
-| Yuvaan by AVEVA (industrial AI) | AWS Cloud Practitioner Essentials |
+| AMD Slingshot (AI + HPC)                  | Microsoft Azure Fundamentals                |
+| Yuvaan by AVEVA (industrial AI)           | AWS Cloud Practitioner Essentials           |
 
 <br/>
 
@@ -104,12 +104,12 @@ Source for everything lives at **[github.com/Varun072006](https://github.com/Var
 
 ## Ordering Information
 
-| | |
-|:---|:---|
-| **Availability** | AI/ML and software engineering internships |
-| **Best channel** | [LinkedIn](https://www.linkedin.com/in/varun-s-41bb95357/) |
-| **Open work** | [GitHub repositories](https://github.com/Varun072006?tab=repositories) |
-| **Problem solving** | [LeetCode](https://leetcode.com/u/wYbMiQ6gOX) |
+|                     |                                                                        |
+| :------------------ | :--------------------------------------------------------------------- |
+| **Availability**    | AI/ML and software engineering internships                             |
+| **Best channel**    | [LinkedIn](https://www.linkedin.com/in/varun-s-41bb95357/)             |
+| **Open work**       | [GitHub repositories](https://github.com/Varun072006?tab=repositories) |
+| **Problem solving** | [LeetCode](https://leetcode.com/u/wYbMiQ6gOX)                          |
 
 <br/>
 
