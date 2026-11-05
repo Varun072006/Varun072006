@@ -16,7 +16,7 @@
 
 ## General Description
 
-The **VS-2028** is a software and machine-learning engineer built to turn research-grade ideas into systems people actually use. It covers the whole path from model to product: graph neural networks, computer vision and LLM pipelines on one side, APIs, databases and deployment on the other.
+The **VARUN S** is a AI and machine-learning engineer built to turn research-grade ideas into systems people actually use. It covers the whole path from model to product: graph neural networks, computer vision and LLM pipelines on one side, APIs, databases and deployment on the other.
 
 Computer Science student at **Bannari Amman Institute of Technology** (class of 2028). Six AI systems shipped. Available for **AI/ML and software engineering internships**.
 
